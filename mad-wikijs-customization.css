@@ -1,0 +1,267 @@
+/* https://github.com/madodig/wikijs-customization */
+/* Enhanced styles for better visibility in white themes */
+
+.contents summary {
+    border: 0 !important;
+    background-color: #fff !important;
+}
+
+.contents details[open] {
+    background-color: #fff !important;
+}
+
+.contents details {
+    border: 0 !important;
+}
+
+.contents table {
+    border-collapse: collapse !important;
+}
+
+/* Enhanced navigation link styles for better visibility */
+.mad-cm-lnk-active {
+    background: rgba(33, 150, 243, 0.1) !important;
+    box-shadow: inset 4px 0 0 rgba(33, 150, 243, 0.6) !important;
+    border-left: 3px solid #2196F3 !important;
+}
+
+.mad-cm-lnk-active2 {
+    background: rgba(33, 150, 243, 0.15) !important;
+    box-shadow: inset 4px 0 0 rgba(33, 150, 243, 0.8) !important;
+    border-left: 4px solid #1976D2 !important;
+    font-weight: 600 !important;
+}
+
+/* Enhanced collapsible menu styles */
+.mad-cm-collapsible {
+    cursor: default;
+    font-size: .9rem !important;
+    font-weight: 600 !important;
+    color: #333 !important;
+    background: rgba(0, 0, 0, 0.03) !important;
+    border-left: 2px solid #e0e0e0 !important;
+    padding-left: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    position: relative !important;
+    transition: all 0.1s ease !important;
+}
+
+.mad-cm-collapsible:before {
+    content: "▶" !important;
+    margin-right: 6px !important;
+    font-size: 0.8rem !important;
+    color: #888 !important;
+    transition: all 0.1s ease !important;
+}
+
+.mad-cm-collapsible:hover {
+    background: rgba(33, 150, 243, 0.18) !important;
+    cursor: pointer;
+    border-left: 5px solid #1976D2 !important;
+    box-shadow: inset 8px 0 0 rgba(33, 150, 243, 0.8) !important;
+    color: #1565C0 !important;
+    transition: all 0.1s ease !important;
+}
+
+.mad-cm-collapsible:hover:before {
+    color: #1976D2 !important;
+    transform: scale(1.1) !important;
+}
+
+.mad-cm-collapsible-active {
+    box-shadow: inset 4px 0 0 rgba(33, 150, 243, 0.6) !important;
+    background: rgba(33, 150, 243, 0.1) !important;
+    border-left: 4px solid #2196F3 !important;
+    transition-delay: 0s;
+}
+
+.mad-cm-collapsible-active:before {
+    content: "▼" !important;
+    color: #2196F3 !important;
+}
+
+.mad-cm-collapsible-inactive {
+    box-shadow: inset 4px 0 0 transparent !important;
+    background: rgba(0, 0, 0, 0.03) !important;
+    border-left: 2px solid #e0e0e0 !important;
+    transition-delay: 0.1s;
+}
+
+/* Enhanced section styles for better hierarchy */
+.mad-cm-section {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-left: none !important;
+    margin-left: 8px !important;
+    padding-left: 12px !important;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.5s cubic-bezier(0,1,0,1);
+}
+
+/* Enhanced section items for better visibility */
+.mad-cm-section a {
+    color: #555 !important;
+    font-weight: 500 !important;
+    font-size: 1.05rem !important;
+    padding: 6px 8px !important;
+    margin: 2px 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    border-radius: 4px !important;
+    transition: all 0.15s ease !important;
+}
+
+.mad-cm-section a:hover {
+    background: rgba(33, 150, 243, 0.1) !important;
+    color: #1976D2 !important;
+    transform: translateX(4px) !important;
+    transition: all 0.15s ease !important;
+}
+
+.expanded {
+    box-shadow: inset 6px 0 0 rgba(33, 150, 243, 0.5) !important;
+    background: rgba(240, 248, 255, 0.9) !important;
+    border: 1px solid rgba(33, 150, 243, 0.1) !important;
+    border-left: 4px solid rgba(33, 150, 243, 0.4) !important;
+    max-height: 99em;
+    transition: max-height 1.5s ease-in-out;
+}
+
+.mb {
+    opacity: 1;
+    left: 4px !important;
+    top: 67px !important;
+    transform-origin: center center;
+}
+
+.mad-nav-hidden {
+    visibility: hidden !important;
+    transform: translateX(-100%) !important;
+    transition: transform 0.5s ease-in 0.2s, visibility 0s 0.75s !important;
+}
+
+.mad-nav-visible {
+    visibility: visible;
+    transform: translateX(0%);
+    transition: transform 0.75s ease-out !important;
+}
+
+.mad-pmb {
+    opacity: 1;
+    left: 234px !important;
+    top: 67px !important;
+    transform-origin: center center;
+}
+
+.flyout {
+    position: relative;
+    display: inline-block;
+}
+
+.flyout-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.flyout-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.flyout-content a:hover {
+    background-color: #ddd;
+}
+
+.flyout:hover .flyout-content {
+    display: block;
+}
+
+.flyout:hover .flybtn {
+    background-color: #3e8e41;
+}
+
+.faccordion p {
+    font-size: 1.1em;
+    margin: 1em 0;
+}
+
+.faccordion ul {
+    padding: 0;
+}
+
+.faccordion li:before {
+    content: none !important;
+}
+
+.faccordion li {
+    margin: .5em 0em;
+    padding-right: 10em;
+}
+
+.faccordion li>h1.collapsed:before,
+.faccordion li>h2.collapsed:before,
+.faccordion li>h3.collapsed:before,
+.faccordion li>h4.collapsed:before,
+.faccordion li>h5.collapsed:before,
+.faccordion li>h6.collapsed:before {
+    content: "⮞ ";
+    border-right: 0.1em solid rgba(255,0,255,0);
+}
+
+.faccordion li>h1.expanded:before,
+.faccordion li>h2.expanded:before,
+.faccordion li>h3.expanded:before,
+.faccordion li>h4.expanded:before,
+.faccordion li>h5.expanded:before,
+.faccordion li>h6.expanded:before {
+    content: "⮟ ";
+}
+
+.faccordion li>h1.single:before,
+.faccordion li>h2.single:before,
+.faccordion li>h3.single:before,
+.faccordion li>h4.single:before,
+.faccordion li>h5.single:before,
+.faccordion li>h6.single:before {
+    content: "";
+}
+
+.faccordion li>h1:hover,
+.faccordion li>h2:hover,
+.faccordion li>h3:hover,
+.faccordion li>h4:hover,
+.faccordion li>h5:hover,
+.faccordion li>h6:hover {
+    cursor: pointer;
+}
+
+.faccordion .inner {
+    padding-left: 1em;
+    overflow: hidden;
+    display: none;
+}
+
+/* Enhanced navigation layout for icons and text alignment */
+nav a {
+    display: flex !important;
+    align-items: center !important;
+}
+
+nav a .v-avatar {
+    margin-right: 8px !important;
+    flex-shrink: 0 !important;
+}
+
+nav .v-list-item__content {
+    display: flex !important;
+    align-items: center !important;
+}
