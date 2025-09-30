@@ -1,3 +1,13 @@
+---
+title: readme
+description: NS·Wiki 的Git仓库说明
+published: true
+date: 2025-09-30T15:01:30.473Z
+tags: 
+editor: markdown
+dateCreated: 2025-09-30T14:51:41.720Z
+---
+
 # 木炉星上的NS·Wiki                         
 
 这是网页 https://nsw.awa.cool/ 的双向Git储存库。
