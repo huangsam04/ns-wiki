@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-09-13T06:58:36.382Z
+date: 2025-09-30T15:11:41.819Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -43,7 +43,6 @@ dateCreated: 2025-08-20T15:05:03.120Z
 本Wiki使用[Wiki.js](https://docs.requarks.io/) 软件搭建，主题使用[wikijs-citizen-styles](https://github.com/AurLemon/wikijs-citizen-styles) ，折叠树状图使用[wikijs-customization](https://github.com/madodig/wikijs-customization/)。
 
 ## 进行捐赠
-为了提升使用体验，NS·Wiki 已使用CDN分发数据。
-**维护网站运营**和**使用CDN加速数据访问**比较耗钱，如果你希望支持本项目的**运营**，可以进入上文提到的交流QQ群并向 QQ号为2097647121（即站长） 的用户发红包。
-请注意捐赠的钱不能用于**提升内容质量**，只能用于**维护服务器的运营**。
+**维护网站运营**比较耗钱，如果你希望支持本项目的**运营**，可以进入上文提到的交流QQ群并向 QQ号为2097647121（即站长） 的用户发红包。
+请注意捐赠的钱不能用于**提升内容质量**，只能用于**维护服务的运营**。
 捐款后请向站长说明，确认后会将你、你的捐款金额和一句可以附带的话添加进 [捐款列表](/DonationList) 里面。
