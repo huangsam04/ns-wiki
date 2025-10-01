@@ -2,7 +2,7 @@
 title: 安装/提取游戏 DBI
 description: Duckbill
 published: true
-date: 2025-10-01T14:02:01.536Z
+date: 2025-10-01T14:09:39.794Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-01T13:53:34.747Z
@@ -24,7 +24,7 @@ DBI是一个非常实用的工具集，其主要功能是安装和提取游戏�
 ![dbi主页.jpg](/homebrew/dbi/dbi主页.jpg =66%x)
 
 打开后提示 `prod.keys 缺少必须的密匙` 是正常的，如果你很在意的话可以参考本文 导出游戏-提取密钥 部分来取得密钥。
-
+![dbi缺少必须的密钥.jpg](/dbi缺少必须的密钥.jpg =66%x)
 ## 安装游戏
 打开你的DBI（如果有任何异常请先从前端模式/注入游戏启动，不明白的请回顾 [常见词汇介绍](/CommonTerms)），选择 `运行 MTP 响应器`。
 ![dbi_mtp响应器.jpg](/homebrew/dbi/dbimtp响应器.jpg =66%x)
