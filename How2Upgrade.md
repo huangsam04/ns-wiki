@@ -2,7 +2,7 @@
 title: 如何更新整合包&系统
 description: How to Upgrade Integration Package
 published: true
-date: 2025-08-29T09:56:10.923Z
+date: 2025-10-01T08:42:41.798Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T14:32:27.410Z
@@ -26,6 +26,8 @@ dateCreated: 2025-08-27T14:32:27.410Z
 emiibo、JKSV、RetroArch、roms等不冲突的文件夹也可以保留。
 
 然后再把新的酸菜鱼整合包中`大气层整合包本体`和你想要的附加包按照安装时的流程复制进去，拔下卡，插入Switch，完成。
+
+也可以使用自动脚本来更新整合包，但是脚本不会自动删除任何文件（只会覆盖）。
 
 ## 更新虚拟系统
 更新前为了防止异常，请先**卸载主题**。
