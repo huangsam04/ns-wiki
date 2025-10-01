@@ -2,7 +2,7 @@
 title: 常见词汇介绍
 description: CommonTerms
 published: true
-date: 2025-08-22T15:24:37.736Z
+date: 2025-10-01T02:43:04.090Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T05:36:11.237Z
@@ -13,9 +13,6 @@ dateCreated: 2025-08-21T05:36:11.237Z
 由于NS破解本就无官方，中英文互译更是产生了一堆翻译版本，因此本篇主要是提供常见的翻译。
 内容参考自网络并总结。如果有任何错误请联系我！
 {.is-info}
-
-> 不负责任何因为本篇而产生的任何问题。
-{.is-warning}
 
 ## 前端，面板，Title
 原名Title。
