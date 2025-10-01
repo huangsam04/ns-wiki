@@ -2,7 +2,7 @@
 title: 基础知识
 description: GettingStarted
 published: true
-date: 2025-09-12T12:38:10.921Z
+date: 2025-10-01T02:42:50.844Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -12,9 +12,6 @@ dateCreated: 2025-08-21T04:49:54.579Z
 > 本篇主要是为了介绍一些NS学习版的基础内容。
 内容参考自网络并总结。如果有任何错误请联系我！
 {.is-info}
-
-> 不负责任何因为本篇而产生的任何问题。
-{.is-warning}
 
 ## 怎么破解的？
 ### 软破
