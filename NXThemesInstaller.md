@@ -2,7 +2,7 @@
 title: 安装主题&主题补丁
 description: NXThemesInstaller
 published: true
-date: 2025-10-01T14:54:38.028Z
+date: 2025-10-01T14:54:50.964Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-29T15:14:28.887Z
@@ -19,7 +19,7 @@ dateCreated: 2025-08-29T15:14:28.887Z
 ## 安装补丁
 首先在你的Switch上面启动一遍NXThemesInstaller（整合包自带），他会在你的TF卡中根目录处生成一个`themes`文件夹。
 
-下载补丁包：[官方Github（最新版）](https://github.com/exelix11/theme-patches/archive/refs/heads/master.zip)，或者镜像站(链接待补)。下载后解压，里面应该有`.github`文件夹，`systemPatches`文件夹和一个没人读的`README.md`。
+下载补丁包：[官方Github](https://github.com/exelix11/theme-patches/archive/refs/heads/master.zip)（最新版），或者镜像站(链接待补)。下载后解压，里面应该有`.github`文件夹，`systemPatches`文件夹和一个没人读的`README.md`。
 
 把你的Switch打到Hekate引导-传输模式，或者把TF卡取出来插到电脑上面。将`systemPatches`文件夹复制到`themes`文件夹里面（此时`themes`文件夹里面可能有一些重复的文件，选择覆盖）。
 
