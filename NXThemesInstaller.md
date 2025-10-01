@@ -2,7 +2,7 @@
 title: 安装主题&主题补丁
 description: NXThemesInstaller
 published: true
-date: 2025-10-01T14:54:50.964Z
+date: 2025-10-01T14:54:52.247Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-29T15:14:28.887Z

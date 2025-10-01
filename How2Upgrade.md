@@ -2,7 +2,7 @@
 title: 如何更新整合包&系统
 description: How to Upgrade Integration Package
 published: true
-date: 2025-10-01T08:42:41.798Z
+date: 2025-10-01T08:42:43.039Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T14:32:27.410Z
