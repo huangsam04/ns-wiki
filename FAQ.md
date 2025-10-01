@@ -2,7 +2,7 @@
 title: 疑难解答
 description: FAQ
 published: true
-date: 2025-10-01T13:59:47.073Z
+date: 2025-10-01T14:08:00.168Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T10:51:15.511Z
@@ -60,7 +60,7 @@ dateCreated: 2025-08-21T10:51:15.511Z
 ## dbi提示传输失败/中断怎么回事
 参考本站关于[DBI的详细信息](/dbi) 中 DBI提示传输失败/中断 段落。
 
-## dbi提示prod.keys缺少必须的密匙。某些功能将被禁用（如dump游戏）
+## dbi提示Prod.keys缺少必须的密匙。某些功能将被禁用（如Dump游戏）
 这是新版DBI特性，部分新功能要用到密钥，不影响游戏安装。
 提取完连接电脑会扫描已安装游戏，可能要一些时间。
 提取密钥的操作请参考本站关于[DBI的详细信息](/dbi) 。
