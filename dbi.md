@@ -2,7 +2,7 @@
 title: 安装/提取游戏 DBI
 description: Duckbill
 published: true
-date: 2025-10-01T14:09:39.794Z
+date: 2025-10-01T14:11:06.172Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-01T13:53:34.747Z
@@ -30,6 +30,8 @@ DBI是一个非常实用的工具集，其主要功能是安装和提取游戏�
 ![dbi_mtp响应器.jpg](/homebrew/dbi/dbimtp响应器.jpg =66%x)
 
 打开你的 资源管理器，选择 `MTP USB 设备` （也可能不叫这个名字）
+这时候如果你一直找不到，请先检查你使用的线缆是否具有传输功能。
+另外传输线缆有USB3.0/2.0之分，3.0的会快一些，网上买根3.0的线也不贵，如果有需求可以买一根用。
 ![资源管理器.png](/homebrew/dbi/资源管理器.png =66%x)
 
 | 名称              | 说明 |
