@@ -2,14 +2,14 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-01T14:52:33.595Z
+date: 2025-10-01T15:27:11.251Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
 ---
 
 <div style="width:100%; height:200px; overflow:hidden; border-radius:12px;">
-  <img src="https://nsw.awa.cool/%E6%A8%AA%E5%B9%85.png" style="width:100%; height:100%; object-fit:cover; object-position:top center;">
+  <img src="https://dl.awa.cool/huangsam04/Banner.avif" style="width:100%; height:100%; object-fit:cover; object-position:top center;">
 </div>
 
 <p style="text-align:center; font-size:36px; font-family: 'Press Start 2P', monospace;">
