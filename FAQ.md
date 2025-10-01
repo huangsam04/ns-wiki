@@ -2,7 +2,7 @@
 title: 疑难解答
 description: FAQ
 published: true
-date: 2025-10-01T15:10:44.230Z
+date: 2025-10-01T15:10:48.945Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T10:51:15.511Z
@@ -10,7 +10,6 @@ dateCreated: 2025-08-21T10:51:15.511Z
 
 # 如果你在使用中发现了一些问题，可以来这里看看
 > 适配 [葡萄糖酸菜鱼](https://space.bilibili.com/604067016) 的整合包。
-最新更新可以查看右边的[最后编辑](https://nsw.awa.cool/h/zh/FAQ)。
 {.is-info}
 
 ## 如何在这里查询问题？
