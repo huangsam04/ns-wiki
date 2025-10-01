@@ -2,7 +2,7 @@
 title: 疑难解答
 description: FAQ
 published: true
-date: 2025-09-12T13:03:08.738Z
+date: 2025-10-01T03:08:00.680Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T10:51:15.511Z
@@ -25,7 +25,8 @@ dateCreated: 2025-08-21T10:51:15.511Z
 非常抱歉，但是目前的大模型都不能很好的解释一些Switch破解问题。尤其是当你还不会的时候，更是有可能通过问题误导模型。
 所以我建议你还是在本站查一查，如果没查到可以进入QQ群联系我们，我们正在努力完善本站。
 另外，最好不要用Deepseek，目前它已经被劣质数据污染，成为幻觉Seek了。
-![deepseek.png](/base/commonterms/deepseek.png =33%x)
+
+![deepseek.png](/base/commonterms/deepseek.png  =33%x)
 
 ## 游戏安装（PC/手机）教程
 参考这个[视频](https://www.bilibili.com/video/BV1c7MUzyEd9)
