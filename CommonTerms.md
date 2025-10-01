@@ -2,7 +2,7 @@
 title: 常见词汇介绍
 description: CommonTerms
 published: true
-date: 2025-10-01T02:43:04.090Z
+date: 2025-10-01T13:13:22.462Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T05:36:11.237Z
@@ -49,8 +49,9 @@ HBmenu已经停更，目前接替的就是sphaira。
 
 ## 常用程序
 ### [DBI](https://github.com/rashevskyv/dbi) 
-非常好用的程序。主要用于安装游戏，不过有很多其他实用小功能。
-由于某些原因，DBI仅提供Russian version only，因此可以下载时鹏亮大佬的[汉化版](https://shipengliang.com/games/%e7%ab%af%e5%8d%88%e8%8a%82%e5%84%bf%e7%ab%a5%e8%8a%82%e7%a4%bc%e7%89%a9%ef%bc%9a%e5%85%a8%e7%90%83%e9%a6%96%e5%8f%91-dbi-%e4%b8%ad%e6%96%87%e7%89%88.html)
+非常好用的工具。主要用于安装游戏，不过有很多其他实用小功能。
+使用方式等详情可以在本站 [home](/home) 查看。
+
 
 ### [90DNS Testing Utlity](https://github.com/meganukebmp/Switch_90DNS_tester)
 字面意思，检测是否通过DNS屏蔽了任天堂服务器。
