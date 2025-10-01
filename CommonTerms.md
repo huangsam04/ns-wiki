@@ -2,7 +2,7 @@
 title: 常见词汇介绍
 description: CommonTerms
 published: true
-date: 2025-10-01T13:13:22.462Z
+date: 2025-10-01T13:29:24.392Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T05:36:11.237Z
@@ -50,7 +50,7 @@ HBmenu已经停更，目前接替的就是sphaira。
 ## 常用程序
 ### [DBI](https://github.com/rashevskyv/dbi) 
 非常好用的工具。主要用于安装游戏，不过有很多其他实用小功能。
-使用方式等详情可以在本站 [home](/home) 查看。
+使用方式等详情可以在本站 [DBI的详细信息](/dbi) 查看。
 
 
 ### [90DNS Testing Utlity](https://github.com/meganukebmp/Switch_90DNS_tester)
