@@ -2,7 +2,7 @@
 title: 安装/提取游戏 DBI
 description: Duckbill
 published: true
-date: 2025-10-01T15:16:18.807Z
+date: 2025-10-01T15:33:02.190Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-01T13:53:34.747Z
@@ -68,7 +68,8 @@ DBI是一个非常实用的工具集，其主要功能是安装和提取游戏�
 
 我们需要的是机带储存中的正版系统密钥，因此直接按下`电源键`确认。稍等一段时间后，程序就会提取完密钥了。
 这个密钥已经放置在了能被DBI识别到的地方，因此不需要你自己手动移动，当然你也可以自己来备份一下，密钥文件被放到了`TF卡/switch/prod.keys`。
-![lockpick_rcm.png](/lockpick_rcm.png =30%x)
+![lockpick_rcm.png](/homebrew/dbi/lockpick_rcm.png =30%x)
+
 
 按下`音量下`回到主页面，你可以选择 `Power off` 或者 `Reboot to hekate` 都行，总之再重新开机，回到Switch操作系统。
 
