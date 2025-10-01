@@ -2,7 +2,7 @@
 title: 疑难解答
 description: FAQ
 published: true
-date: 2025-10-01T14:08:41.341Z
+date: 2025-10-01T15:01:10.436Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T10:51:15.511Z
@@ -29,7 +29,8 @@ dateCreated: 2025-08-21T10:51:15.511Z
 ![deepseek.png](/base/commonterms/deepseek.png  =33%x)
 
 ## 游戏安装（PC/手机）教程
-参考这个[视频](https://www.bilibili.com/video/BV1c7MUzyEd9)
+使用电脑可以参考本站[DBI-安装游戏](/dbi)页面，使用安卓手机参考这个通过atomXL来安装游戏的[B站视频教程](https://www.bilibili.com/video/BV1TrMczXELk/)。
+当然，我们仍然建议你只使用DBI来安装游戏。
 
 ## 打不开ultrahand插件菜单怎么办？
 本包插件菜单快捷键为**ZL+ZR+下方向键**，在游戏中误触更少，不喜欢可以在ultrahand中按 + 键修改。
