@@ -2,7 +2,7 @@
 title: 疑难解答
 description: FAQ
 published: true
-date: 2025-10-01T15:10:18.510Z
+date: 2025-10-01T15:10:44.230Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T10:51:15.511Z
@@ -12,9 +12,6 @@ dateCreated: 2025-08-21T10:51:15.511Z
 > 适配 [葡萄糖酸菜鱼](https://space.bilibili.com/604067016) 的整合包。
 最新更新可以查看右边的[最后编辑](https://nsw.awa.cool/h/zh/FAQ)。
 {.is-info}
-
-> 所有游戏安装相关问题，先保证是从前端进入的 DBI / ATMOXL / AWOO
-{.is-warning}
 
 ## 如何在这里查询问题？
 浏览器在本页进行以下操作，即可弹出搜索窗，输入你的问题的关键词就可以查询了：
