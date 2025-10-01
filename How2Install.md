@@ -2,7 +2,7 @@
 title: 如何安装整合包
 description: How to Install Integration Package
 published: true
-date: 2025-10-01T08:12:04.831Z
+date: 2025-10-01T08:25:51.251Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T13:59:15.909Z
@@ -16,7 +16,7 @@ dateCreated: 2025-08-27T13:59:15.909Z
 
 # 脚本自动安装
 **仅支持Windows**，而且最好是Windows10/11，其他版本系统未经测试。
-可以自动分区并安装整合包的脚本，目前处于测试版，可能有**安全隐患**。
+可以自动分区并安装整合包的脚本，免责声明，目前处于测试版，可能有**安全隐患**。
 点击此下载最新版：[链接](https://dl.awa.cool/huangsam04/AutoSwitch%20Alpha.zip) 。
 打开脚本后会要求管理员权限。请预先下载好葡萄糖酸菜鱼的整合包。
 
