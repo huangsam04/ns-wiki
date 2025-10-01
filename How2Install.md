@@ -2,7 +2,7 @@
 title: 如何安装整合包
 description: How to Install Integration Package
 published: true
-date: 2025-10-01T08:44:51.226Z
+date: 2025-10-01T14:22:27.834Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T13:59:15.909Z
@@ -13,6 +13,11 @@ dateCreated: 2025-08-27T13:59:15.909Z
 如果链接失效请通过首页的 [联系我们](/home) 来通知。
 本教程提供了**安装整合包+创建分区格式虚拟系统**的方法。
 {.is-info}
+
+> 有人报告称不管是Windows自带的分区软件，还是使用DiskGenius这种完善的第三方分区软件，都和Hekate内自带分区软件效果不同，使用后会导致TF卡健康受损。
+因此请暂时**先不要参考本文方式**，我已经向Hekate项目发了issue询问是否有这种情况。即便我并未遇到这种情况，但是小心为上。
+{.is-danger}
+
 
 # 脚本自动安装
 **仅支持Windows**，而且最好是Windows10/11，其他版本系统未经测试。
