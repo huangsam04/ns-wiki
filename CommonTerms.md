@@ -2,7 +2,7 @@
 title: 常见词汇介绍
 description: CommonTerms
 published: true
-date: 2025-10-01T13:29:24.392Z
+date: 2025-10-01T15:21:44.649Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T05:36:11.237Z
@@ -11,7 +11,6 @@ dateCreated: 2025-08-21T05:36:11.237Z
 # 学习常见的术语
 > 本篇主要是为了介绍一些NS学习版的常见术语。
 由于NS破解本就无官方，中英文互译更是产生了一堆翻译版本，因此本篇主要是提供常见的翻译。
-内容参考自网络并总结。如果有任何错误请联系我！
 {.is-info}
 
 ## 前端，面板，Title
