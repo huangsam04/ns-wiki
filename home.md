@@ -2,14 +2,14 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-01T15:29:13.447Z
+date: 2025-10-01T15:29:34.709Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
 ---
 
 <div style="width:100%; height:200px; overflow:hidden; border-radius:12px;">
-  <img src="/banner.avif" style="width:100%; height:100%; object-fit:cover; object-position:top center;">
+  <img src="https://dl.awa.cool/huangsam04/Banner.avif" style="width:100%; height:100%; object-fit:cover; object-position:top center;">
 </div>
 
 <p style="text-align:center; font-size:36px; font-family: 'Press Start 2P', monospace;">
