@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-01T15:29:35.946Z
+date: 2025-10-02T00:55:10.404Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -41,7 +41,7 @@ dateCreated: 2025-08-20T15:05:03.120Z
 ## 感谢开源项目
 本Wiki使用[Wiki.js](https://docs.requarks.io/) 软件搭建，主题使用[wikijs-citizen-styles](https://github.com/AurLemon/wikijs-citizen-styles) ，折叠树状图使用[wikijs-customization](https://github.com/madodig/wikijs-customization/)。
 
-## 进行捐赠
-**维护网站运营**比较耗钱，如果你希望支持本项目的**运营**，可以进入上文提到的交流QQ群并向 QQ号为2097647121（即站长） 的用户发红包。
-请注意捐赠的钱不能用于**提升内容质量**，只能用于**维护服务的运营**。
+## 支持我们
+**维护项目运营**比较耗钱，如果您希望支持本项目**运营**，可以进入上文提到的交流QQ群并向**站长**发红包。捐赠的钱**不能提升内容质量**，只能用于**维护服务的运营**。
+请注意，我们**没有强制**要求您捐赠等一切向我们交钱的行为。本站所有引用的资源都**不是付费**的，因此即便您捐了钱我也不保证向您提供更多的服务。如果您要向我捐赠，那一定是出于您自身的意愿，为了支持本项目能更长的运行的目的，而不是别的。
 捐款后请向站长说明，确认后会将你、你的捐款金额和一句可以附带的话添加进 [捐款列表](/DonationList) 里面。
