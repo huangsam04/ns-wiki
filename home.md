@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-02T00:55:10.404Z
+date: 2025-10-02T06:08:35.003Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -28,6 +28,8 @@ dateCreated: 2025-08-20T15:05:03.120Z
 {.is-info}
 1. [木炉星上のNS Wiki](https://nsw.awa.cool) （本项目）
 2. [木炉星 下载站](https://dl.awa.cool/) 
+3. [木炉星 下载站 镜像站](https://dl2.awa.cool/) 
+
 
 ## 参与改进我们的项目
 目前本站还并未达到目标，急需大家参与改进！**感谢**！
