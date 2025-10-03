@@ -2,7 +2,7 @@
 title: 如何降级系统
 description: How to Downgrade Switch System
 published: true
-date: 2025-10-03T17:10:52.660Z
+date: 2025-10-03T17:32:30.722Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T16:45:45.966Z
@@ -60,7 +60,7 @@ dateCreated: 2025-10-03T16:45:45.966Z
 稍等一会儿，你的游戏机会自动关机（？），让它开机，继续进入虚拟系统。
 {.is-info}
 
-> 如果你开机后报 `错误码 Error Code: 2168-0002`，并且第二行是 `Program: 0100000000001000`，请检查你是否没有删除主题。如果忘记删除可以参考 [NXThemesInstaller](/NXThemesInstaller) 的删除主题部分 。
+> 如果你开机后报 `错误码 Error Code: 2168-0002`，并且第二行是 `Program: 0100000000001000`，请检查你是否没有删除主题。如果忘记删除可以参考 [NXThemesInstaller](/NXThemesInstaller) 的 强制删除主题 部分。
 {.is-warning}
 
 ## 重装游戏
