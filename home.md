@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-03T01:07:49.260Z
+date: 2025-10-03T01:18:30.850Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -40,7 +40,7 @@ dateCreated: 2025-08-20T15:05:03.120Z
 交流QQ群号：955423869，1051287661
 站长（并非交流群群主）：QQ 2097647121 [huangsam04@vip.qq.com](mailto:huangsam04@vip.qq.com) <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=jub77_Dp-e-jvrrO_Of_oP--oO3h4w" style="text-decoration:none;">使用QQ邮箱一键向我发信</a>
 
-## 感谢开源项目
+## 感谢项目
 本Wiki使用[Wiki.js](https://docs.requarks.io/) 软件搭建，主题使用[wikijs-citizen-styles](https://github.com/AurLemon/wikijs-citizen-styles) ，折叠树状图使用[wikijs-customization](https://github.com/madodig/wikijs-customization/)。
 
 ## 支持我们
