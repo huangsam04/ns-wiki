@@ -2,7 +2,7 @@
 title: 疑难解答
 description: FAQ
 published: true
-date: 2025-10-03T17:09:02.732Z
+date: 2025-10-03T17:29:09.848Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T10:51:15.511Z
@@ -80,10 +80,10 @@ dateCreated: 2025-08-21T10:51:15.511Z
 )进行基本的超频，然后再学习这个[视频](https://www.bilibili.com/video/BV1VgNBzZEs1)进行极限超频。
 
 ## fps-locker解锁帧数后游戏运行异常/无法解锁帧数怎么办？
-需要制作60FPS补丁，点fpslocker的高级设置
+参考 [Fpslocker](/Fpslocker) 中 1.补丁文件 和 2.补丁安装 两段。
 
 ## fps-locker显示没有补丁怎么办
-可能是fps-locker不支持，到[官方Github链接](https://github.com/masagrator/FPSLocker-Warehouse)或者[木炉星 下载镜像站](https://dl.awa.cool/scy/FPSLocker-Warehouse)看支持的游戏与所需版本
+参考 [Fpslocker](/Fpslocker) 中 0.查询支持的游戏/版本 一段。
 
 ## 游戏启动后黑屏
 游戏要求的系统版本过高：检查版本是否对应，可使用NSGmanager查看游戏/补丁所需系统版本。
