@@ -2,7 +2,7 @@
 title: 帧率解锁 Fpslocker
 description: 
 published: true
-date: 2025-09-28T14:56:50.472Z
+date: 2025-10-03T09:10:09.193Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-28T13:41:31.418Z
@@ -14,7 +14,7 @@ dateCreated: 2025-09-28T13:41:31.418Z
 > 对于大部分游戏，掌机模式下跑满60FPS需要对内存极限超频。
 > {.is-warning}
 
-## 0.如何查询是否支持你想玩的游戏
+## 0.查询支持的游戏/版本
 
 1) 打开金手指插件，查看右侧显示的第一个ID (根据译者不同，可能名为 游戏ID/程序ID/应用ID/tid/title id)
 ![title_id.png](/homebrew/fpslocker/title_id.png =50%x)
