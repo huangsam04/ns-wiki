@@ -2,7 +2,7 @@
 title: 如何降级系统
 description: How to Downgrade Switch System
 published: true
-date: 2025-10-03T16:45:45.966Z
+date: 2025-10-03T17:10:52.660Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T16:45:45.966Z
@@ -17,6 +17,9 @@ dateCreated: 2025-10-03T16:45:45.966Z
 > 需要注意：从20降级到19**必须删除游戏**！存档可以保留。
 仅限于**虚拟系统**！真实系统不得降级。
 {.is-danger}
+
+> 请预先删除掉主题，参考 [NXThemesInstaller](/NXThemesInstaller) 中 删除主题 一段。
+{.is-warning}
 
 
 ## 下载固件
