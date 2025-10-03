@@ -2,7 +2,7 @@
 title: 安装/提取游戏 DBI
 description: Duckbill
 published: true
-date: 2025-10-01T15:34:42.578Z
+date: 2025-10-03T13:38:14.228Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-01T13:53:34.747Z
@@ -14,7 +14,7 @@ DBI是一个非常实用的工具集，其主要功能是安装和提取游戏�
 
 时鹏亮曾[指出](https://shipengliang.com/games/switch-dbi-%e5%9b%be%e6%96%87%e4%bd%bf%e7%94%a8%e6%95%99%e7%a8%8b.html) ：忘记Awoo、nxUSBload、NS-USBloader、NUT、NS-USBloader、TinWoo、AtmoXL(AtmoXL-Titel-Installer)以及Goldleaf这些**古老过时**的游戏安装插件，睿智的你掌握DBI就足够了。
 
-由于一个叫 [三上烤鸭](https://space.bilibili.com/679023184) 的人，DBI仅提供Russian version only。原因请看这张照片（来自 时鹏亮的Blog） [链接1](https://pic.shipengliang.com/wp-content/uploads/2025/05/%E5%85%B3%E4%BA%8EDBI%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8E%BB%E6%8E%89%E4%BA%86%E4%B8%AD%E6%96%87%E7%89%88.png) [链接2(镜像)](https://dl.awa.cool/huangsam04/%E5%85%B3%E4%BA%8EDBI%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8E%BB%E6%8E%89%E4%BA%86%E4%B8%AD%E6%96%87%E7%89%88.png) 。
+由于一个叫 [三上烤鸭](https://space.bilibili.com/679023184) 的人，DBI仅提供Russian version only。原因请看这张照片（来自 时鹏亮的Blog）： [链接1](https://pic.shipengliang.com/wp-content/uploads/2025/05/%E5%85%B3%E4%BA%8EDBI%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8E%BB%E6%8E%89%E4%BA%86%E4%B8%AD%E6%96%87%E7%89%88.png) [链接2(镜像)](https://dl.awa.cool/huangsam04/%E5%85%B3%E4%BA%8EDBI%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8E%BB%E6%8E%89%E4%BA%86%E4%B8%AD%E6%96%87%E7%89%88.png) 。
 
 ## 下载并打开DBI
 时鹏亮 大佬对DBI进行了翻译，这是其[页面](https://shipengliang.com/games/%e7%ab%af%e5%8d%88%e8%8a%82%e5%84%bf%e7%ab%a5%e8%8a%82%e7%a4%bc%e7%89%a9%ef%bc%9a%e5%85%a8%e7%90%83%e9%a6%96%e5%8f%91-dbi-%e4%b8%ad%e6%96%87%e7%89%88.html) 。
