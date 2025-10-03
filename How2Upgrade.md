@@ -2,7 +2,7 @@
 title: 如何更新整合包&系统
 description: How to Upgrade Integration Package
 published: true
-date: 2025-10-03T17:31:19.046Z
+date: 2025-10-03T17:32:08.493Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T14:32:27.410Z
@@ -41,7 +41,7 @@ emiibo、JKSV、RetroArch、roms等不冲突的文件夹也可以保留。
 点击Continue 继续，等待进度条跑完点击Reboot 重启，重启到Hekate引导后点击启动-虚拟破解系统。
 如果你再次回到了Hekate，这是正常的，再启动虚拟破解系统即可。
 
-> 如果你开机后报 `错误码 Error Code: 2168-0002`，并且第二行是 `Program: 0100000000001000`，请检查你是否没有删除主题。如果忘记删除可以参考 [NXThemesInstaller](/NXThemesInstaller) 的删除主题部分 。
+> 如果你开机后报 `错误码 Error Code: 2168-0002`，并且第二行是 `Program: 0100000000001000`，请检查你是否没有删除主题。如果忘记删除可以参考 [NXThemesInstaller](/NXThemesInstaller) 的 强制删除主题 部分。
 {.is-warning}
 
 ## 更新正版系统
