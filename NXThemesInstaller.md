@@ -1,8 +1,8 @@
 ---
-title: 安装主题&主题补丁
-description: NXThemesInstaller
+title: 管理主题&主题补丁
+description: 本文将会告诉你怎么安装主题，以及卸载他们。
 published: true
-date: 2025-10-01T14:54:52.247Z
+date: 2025-10-03T16:21:39.200Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-29T15:14:28.887Z
