@@ -2,7 +2,7 @@
 title: 破解Switch
 description: Crack Switch
 published: true
-date: 2025-10-04T10:30:02.355Z
+date: 2025-10-04T10:31:00.219Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -52,5 +52,5 @@ TX就做了这样的一个注入器。
 
 新的方法是，装一个破解用芯片焊接到CPU附近，在开机时干扰CPU供电电压，通过CPU电压故障从而绕过bootROM固件验证，允许payload.bin将取代BOOT0的文件。payload.bin进一步启动Hekate，完成Switch的破解。
 
-> 参考文献： [Nintendo Switch 破解原理:详解 Fusée Gelée 漏洞](https://github.com/Ginurx/fusee_gelee_explained_in_chinese)，[Switch_System_Flaws](https://switchbrew.org/wiki/Switch_System_Flaws) 。
+> 参考文献： [Nintendo Switch 破解原理:详解 Fusée Gelée 漏洞](https://github.com/Ginurx/fusee_gelee_explained_in_chinese)，[Switch_System_Flaws](https://switchbrew.org/wiki/Switch_System_Flaws)，[Introduction to Modchips](https://switch.hacks.guide/user_guide/modchip/) 。
 {.is-info}
