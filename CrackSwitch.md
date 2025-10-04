@@ -2,7 +2,7 @@
 title: 破解Switch
 description: Crack Switch
 published: true
-date: 2025-10-04T10:31:00.219Z
+date: 2025-10-04T10:31:27.494Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -18,8 +18,8 @@ Switch1的Tegra X1提供一个Recovery Mode（恢复模式，简称RCM），用�
 2. bootROM 首先决定执行代码所需要的内存芯片
 3. 内存决定下来后，读取启动配置表（[Boot Configuration Table](https://http.download.nvidia.com/tegra-public-appnotes/bct-overview.html)，简称BCT）
 3.1 如果读取BCT失败，那么就会进入RCM
-4. 根据BCT的配置，如果没找到有效的Bootloader，那么也会进入RCM
-5. 如果找到了Bootloader，那么控制权就会转移至Bootloader
+3.2 根据BCT的配置，如果没找到有效的Bootloader，那么也会进入RCM
+4. 如果找到了Bootloader，那么控制权就会转移至Bootloader
 
 > BCT中提供了配置信息，用于配置boot memory，配置SDRAM（如果有需要的话，bootloader一般都会加载到SDRAM中），表明bootloader镜像的位置，bootloader加载到的内存地址，指定bootloader的入口。
 {.is-info}
