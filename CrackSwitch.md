@@ -2,7 +2,7 @@
 title: 破解Switch
 description: Crack Switch
 published: true
-date: 2025-10-04T13:24:15.540Z
+date: 2025-10-04T13:26:04.446Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -69,6 +69,9 @@ GET_STATUS协议规定，Switch应当返回一定信息（在栈里面，即图�
 
 回顾一下，我们发现：栈中除了保存局部变量数据之外，还保存了函数调用的返回指针！
 因此，如果我们精心设计RCM Payload区的数据，让其覆盖栈中的函数返回指针，并指向我们的程序入口，那么当bootROM的函数执行完返回时就会跳转到我们自己的代码执行了！
+
+函数调用链
+![call_stack.png](/base/crack_switch/call_stack.png =66%x)
 
 如此一来，我们就控制了RCM。RCM有最高权限级别，于是我们就可以将任意代码加载到主CPU复合体（CCPLEX，指所有CPU核心以及它们共享的缓存）了。 
 
