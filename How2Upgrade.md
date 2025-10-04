@@ -2,7 +2,7 @@
 title: 如何更新整合包&系统
 description: How to Upgrade Integration Package
 published: true
-date: 2025-10-03T17:32:08.493Z
+date: 2025-10-04T10:52:53.578Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T14:32:27.410Z
@@ -31,10 +31,13 @@ emiibo、JKSV、RetroArch、roms等不冲突的文件夹也可以保留。
 
 ## 更新虚拟系统
 更新前为了防止异常，请先**卸载主题**。
-从葡萄糖酸菜鱼的夸克网盘分享中下载固件。例如`Firmware.20.3.0.zip`
+从葡萄糖酸菜鱼的夸克网盘分享中下载固件,例如`Firmware.20.3.0.zip` 。
+
 解压成一个文件夹，例如`Firmware.20.3.0`，移动至TF卡根目录（不是把里面的所有文件放到根目录）。
+
 进入虚拟系统，通过前端模式打开Daybreak（按住R打开游戏，选择Daybreak），选择Install，选择你的固件文件夹，例如`Firmware.20.3.0`，然后将会校验。
-等待校验完成后点击Continue 继续，点击右边的Preserve Settings保存设置，
+等待校验完成后点击Continue 继续，点击右边的Preserve Settings保存设置。
+
 - 如果你的TF卡使用的是exFAT格式，请一定点击右边的Install(FAT32+exFAT)，否则无法进入系统
 - 如果你是跟着本站教程来的，那么你的卡应当是FAT32格式，点击左侧Install(FAT32)也可以。点击哪个无所谓。
 
