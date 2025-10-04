@@ -2,7 +2,7 @@
 title: 破解Switch
 description: Crack Switch
 published: true
-date: 2025-10-04T10:31:27.494Z
+date: 2025-10-04T10:32:30.904Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -32,7 +32,7 @@ Switch1的Tegra X1提供一个Recovery Mode（恢复模式，简称RCM），用�
 
 该模式会从USB中读取一段程序（Payload）并执行他们。这样做的本意是允许厂家给Switch输入一段小程序，用来做诊断和维修的。
 
-但是ShofEL2和Fusée Gelée开发项目发现，RCM模式中有一个复制操作，但是这个操作并没有规定长度限制。
+但是 ShofEL2 和 Fusée Gelée开发团队 发现，RCM模式中有一个复制操作，但是这个操作并没有规定长度限制。
 
 聪明的你一定想到了**溢出操作**，所以我们可以精心构建一个USB输入，把我们想要执行的操作溢出到bootROM使用的内存上面。bootROM有最高权限级别，我们控制了bootROM内存，就可以将任意代码加载到主CPU复合体（CCPLEX，指所有CPU核心以及它们共享的缓存）了。 
 
