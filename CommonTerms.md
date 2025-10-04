@@ -2,7 +2,7 @@
 title: 常见词汇介绍
 description: CommonTerms
 published: true
-date: 2025-10-01T15:21:45.884Z
+date: 2025-10-04T06:39:00.461Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T05:36:11.237Z
@@ -45,6 +45,15 @@ HBmenu已经停更，目前接替的就是sphaira。
 ![究极手.jpg](/base/commonterms/究极手.jpg)
 
 例如 [葡萄糖酸菜鱼](https://space.bilibili.com/604067016) 的整合包就是按下ZL+ZR+方向下 打开。
+
+## HOS
+Horizon OS，指Switch系统。
+
+## OFW
+Original Firmware，指原始系统。
+
+## CFW
+Custom Firmware，指自定义后的系统。
 
 ## 常用程序
 ### [DBI](https://github.com/rashevskyv/dbi) 
