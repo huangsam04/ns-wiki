@@ -2,7 +2,7 @@
 title: Switch上能运行的系统
 description: 本文告诉你Switch上常见的系统种类和名字。
 published: true
-date: 2025-10-04T06:58:06.983Z
+date: 2025-10-04T06:58:18.899Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-04T06:58:06.983Z
