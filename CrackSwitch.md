@@ -2,7 +2,7 @@
 title: 破解Switch
 description: Crack Switch
 published: true
-date: 2025-10-05T13:12:41.275Z
+date: 2025-10-05T13:13:02.548Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -101,7 +101,7 @@ TX就做了这样的一个注入器。
 时序即前文提及的芯片为注入 `payload.bin` 文件所进行的电压脉冲的精确时机和强度。多个最优故障时序参数会被写入破解用芯片的内置存储器，用于实现快速破解。当因执行Switch系统更新导致某一时序不好用的时候，芯片将自动尝试使用其余备用时序使芯片故障并运行sdloader。
 若上述操作失败了，则可能需要重置芯片（需拆解主机并手动操作芯片）。但是除非存在硬件故障，Picofly芯片基本不会出现使芯片故障与训练失败的情况。
 
-完成使芯片故障与训练后，modchip会将其自带的 `payload.bin` 写入Switch内置存储器 `BOOT0` 分区的空白扇区。
+第一次启动完成使芯片故障与训练后，modchip会将其自带的 `payload.bin` 写入Switch内置存储器 `BOOT0` 分区的空白扇区。
 该自带的负载负责实现以下功能：启动时显示Picofly引导画面（带有Picofly标识的"NO SD Card"提示界面），并中止Switch的正常启动流程（除非同时按住音量+/-键开机以绕过sdloader）。此负载程序没有危险，不会对Switch内置存储器的任何关键区域造成影响。
 
 我们会把hekate的 `payload.bin` 放到SD卡的根目录以启动heakte，于是就完成了对Switch的破解。
