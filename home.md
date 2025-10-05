@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-05T08:29:24.354Z
+date: 2025-10-05T16:01:05.622Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -37,9 +37,6 @@ dateCreated: 2025-08-20T15:05:03.120Z
 如果有任何疑问、错误、疏漏 等等的，可以通过QQ或者邮箱来联系。
 交流QQ群号：955423869，1051287661 。
 站长（并非交流群群主）：QQ 2097647121 [huangsam04@vip.qq.com](mailto:huangsam04@vip.qq.com) 。
-
-## 感谢开源项目
-本站使用[Wiki.js](https://docs.requarks.io/) 软件搭建，主题使用[wikijs-citizen-styles](https://github.com/AurLemon/wikijs-citizen-styles) ，折叠树状图使用[wikijs-customization](https://github.com/madodig/wikijs-customization/) 改，自动贡献者使用[wikijs-AutoContributors](https://github.com/huangsam04/wikijs-AutoContributors)。
 
 ## 支持我们
 **维护项目运营**比较耗钱，如果您希望支持本项目**运营**，可以进入上文提到的交流QQ群并向**站长**发红包。捐赠的钱**不能提升内容质量**，只能用于**维护服务的运营**。
