@@ -2,7 +2,7 @@
 title: 错误码
 description: 从这里查找Switch常见的错误码。
 published: true
-date: 2025-10-05T02:59:01.033Z
+date: 2025-10-05T03:11:13.200Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-05T02:31:51.363Z
@@ -32,5 +32,5 @@ dateCreated: 2025-10-05T02:31:51.363Z
 
 ## HOS系统报错
 
-> 参考文献：[Switch 三方插件 titleid 列表](https://shipengliang.com/games/switch-%E4%B8%89%E6%96%B9%E6%8F%92%E4%BB%B6-titleid-%E5%88%97%E8%A1%A8.html)，[switch大气层常见报错对应id汇总 ](http://www.k73.com/new/663761.html)  。
+> 参考文献：[Switch 三方插件 titleid 列表](https://shipengliang.com/games/switch-%E4%B8%89%E6%96%B9%E6%8F%92%E4%BB%B6-titleid-%E5%88%97%E8%A1%A8.html)，[switch大气层常见报错对应id汇总 ](http://www.k73.com/new/663761.html)，[第三方自製for Switch工具列表](https://www.tekqart.com/thread-273390-1-1.html)  。
 {.is-info}
