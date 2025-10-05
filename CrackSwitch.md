@@ -2,7 +2,7 @@
 title: 破解Switch
 description: Crack Switch
 published: true
-date: 2025-10-04T13:37:27.112Z
+date: 2025-10-05T02:10:53.446Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -11,6 +11,8 @@ dateCreated: 2025-08-21T04:49:54.579Z
 # 怎么破解的？
 
 ## 软破
+仅适用于Tegra X1 T210芯片。
+
 Switch1的Tegra X1提供一个Recovery Mode（恢复模式，简称RCM），用于厂商救砖一类的操作，这个模式写在了只读的bootROM中。
 
 ### Switch开机过程
@@ -87,9 +89,9 @@ TX就做了这样的一个注入器。
 还记得我们上文提到过bootROM是只读的吗？所以厂家只能出场前修复，而不能后期OTA修复。因此初代机一直都能软破。
 
 ## 硬破
-任天堂重新设计了bootROM，解决了上文提到的漏洞，因此软破路线在后期的机器都被封死了。
+任天堂重新设计了bootROM，将Tegra X1 T210换为了T214，解决了上文提到的漏洞，因此软破路线在后期的机器都被封死了。
 
-新的方法是，装一个破解用芯片焊接到CPU附近，在开机时干扰CPU供电电压，通过CPU电压故障从而绕过bootROM固件验证，允许payload.bin将取代BOOT0的文件。payload.bin进一步启动Hekate，完成Switch的破解。
+新的方法是，装一个破解用芯片焊接到CPU附近，在开机时干扰CPU供电电压，通过CPU电压故障从而绕过bootROM固件验证，允许payload.bin取代BOOT0的文件。payload.bin进一步启动Hekate，完成Switch的破解。
 
 > 参考文献： [Nintendo Switch 破解原理:详解 Fusée Gelée 漏洞](https://github.com/Ginurx/fusee_gelee_explained_in_chinese)，[Switch System Flaws](https://switchbrew.org/wiki/Switch_System_Flaws)，[Introduction to Modchips](https://switch.hacks.guide/user_guide/modchip/) ，[Nintendo Switch RCM漏洞分析](https://www.bilibili.com/opus/359518805976270922)，[Glitching the Switch 演讲](https://media.ccc.de/v/c4.openchaos.2018.06.glitching-the-switch) 。
 {.is-info}
