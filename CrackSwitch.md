@@ -2,7 +2,7 @@
 title: 破解Switch
 description: Crack Switch
 published: true
-date: 2025-10-05T02:10:53.446Z
+date: 2025-10-05T12:59:26.979Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -90,8 +90,18 @@ TX就做了这样的一个注入器。
 
 ## 硬破
 任天堂重新设计了bootROM，将Tegra X1 T210换为了T214，解决了上文提到的漏洞，因此软破路线在后期的机器都被封死了。
+新的方法是，装一个破解用芯片（Picofly，或其他所有modchip）焊接到CPU附近并与CPU部分阵脚等连接。
 
-新的方法是，装一个破解用芯片焊接到CPU附近，在开机时干扰CPU供电电压，通过CPU电压故障从而绕过bootROM固件验证，允许payload.bin取代BOOT0的文件。payload.bin进一步启动Hekate，完成Switch的破解。
+每次Switch正常启动到校验部分的时候（这是一个非常精确的时间点），注入过大的电压（即进行Voltage glitching），让CPU运行电路速度不同从而出现故障，从而绕过启动固件验证。
+在这个故障的时间窗口内，会由Picofly固件（或modchip固件）的一个模块（sdloader）把SD卡根目录的 `payload.bin` 注入（加载）进你的Switch。
+
+一旦第一次成功破解了Switch（即找到了第一个合适的时序），破解芯片就会执行一个叫做训练的行为。所谓训练，实质上是针对已发现的故障时序进行压力测试，确定发现的这个时序是合适的、稳定的。
+
+时序即前文提及的芯片为注入 `payload.bin` 文件所进行的电压脉冲的精确时机和强度。多个最优故障时序参数会被写入破解用芯片的内置存储器，用于实现快速破解。当因执行Switch系统更新导致某一时序不好用的时候，芯片将自动尝试使用其余备用时序使芯片故障并运行sdloader。
+若上述操作失败了，则可能需要重置芯片（需拆解主机并手动操作芯片）。但是除非存在硬件故障，Picofly芯片基本不会出现使芯片故障与训练失败的情况。
+
+完成使芯片故障与训练后，modchip会将其 `payload.bin` 写入Switch内置存储器 `BOOT0` 分区的空白扇区。
+该负载负责实现以下功能：启动时显示Picofly引导画面（带有Picofly标识的"NO SD Card"提示界面），并中止Switch的正常启动流程（除非同时按住音量+/-键开机以绕过sdloader）。此负载程序没有危险，不会对Switch内置存储器的任何关键区域造成影响。
 
 > 参考文献： [Nintendo Switch 破解原理:详解 Fusée Gelée 漏洞](https://github.com/Ginurx/fusee_gelee_explained_in_chinese)，[Switch System Flaws](https://switchbrew.org/wiki/Switch_System_Flaws)，[Introduction to Modchips](https://switch.hacks.guide/user_guide/modchip/) ，[Nintendo Switch RCM漏洞分析](https://www.bilibili.com/opus/359518805976270922)，[Glitching the Switch 演讲](https://media.ccc.de/v/c4.openchaos.2018.06.glitching-the-switch) 。
 {.is-info}
