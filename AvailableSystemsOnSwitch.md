@@ -2,7 +2,7 @@
 title: Switch上能运行的系统
 description: 本文告诉你Switch上常见的系统种类和名字。
 published: true
-date: 2025-10-04T10:49:18.621Z
+date: 2025-10-05T15:53:54.504Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-04T06:58:06.983Z
@@ -62,3 +62,6 @@ dateCreated: 2025-10-04T06:58:06.983Z
 
 ### Linux系列
 分为Ubuntu，Fedora和Lakka。
+
+> 参考文献： [Switchroot Wiki](https://wiki.switchroot.org/wiki/)。
+{.is-info}
