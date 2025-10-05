@@ -2,7 +2,7 @@
 title: 破解Switch
 description: Crack Switch
 published: true
-date: 2025-10-05T13:09:29.341Z
+date: 2025-10-05T13:10:03.837Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -104,5 +104,5 @@ TX就做了这样的一个注入器。
 完成使芯片故障与训练后，modchip会将其自带的 `payload.bin` 写入Switch内置存储器 `BOOT0` 分区的空白扇区。
 该自带的负载负责实现以下功能：启动时显示Picofly引导画面（带有Picofly标识的"NO SD Card"提示界面），并中止Switch的正常启动流程（除非同时按住音量+/-键开机以绕过sdloader）。此负载程序没有危险，不会对Switch内置存储器的任何关键区域造成影响。
 
-> 参考文献： [Nintendo Switch 破解原理:详解 Fusée Gelée 漏洞](https://github.com/Ginurx/fusee_gelee_explained_in_chinese)，[Switch System Flaws](https://switchbrew.org/wiki/Switch_System_Flaws)，[Introduction to Modchips](https://switch.hacks.guide/user_guide/modchip/) ，[Nintendo Switch RCM漏洞分析](https://www.bilibili.com/opus/359518805976270922)，[Glitching the Switch 演讲](https://media.ccc.de/v/c4.openchaos.2018.06.glitching-the-switch)，[Functionality of modchips](https://guide.nx-modchip.info/functionality/functionality_of_modchips/#voltage-glitching) 。
+> 参考文献： [Nintendo Switch 破解原理:详解 Fusée Gelée 漏洞](https://github.com/Ginurx/fusee_gelee_explained_in_chinese)，[Switch System Flaws](https://switchbrew.org/wiki/Switch_System_Flaws)，[Introduction to Modchips](https://switch.hacks.guide/user_guide/modchip/) ，[Nintendo Switch RCM漏洞分析](https://www.bilibili.com/opus/359518805976270922)，[Glitching the Switch 演讲](https://media.ccc.de/v/c4.openchaos.2018.06.glitching-the-switch)，[Functionality of modchips](https://guide.nx-modchip.info/functionality/functionality_of_modchips) 。
 {.is-info}
