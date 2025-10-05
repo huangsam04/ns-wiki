@@ -2,7 +2,7 @@
 title: SD 卡指北
 description: SD Card Guide
 published: true
-date: 2025-10-03T09:25:21.587Z
+date: 2025-10-05T02:12:47.927Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T09:25:21.587Z
@@ -75,6 +75,8 @@ TF卡的速度协议分为SpeedClass、UHS Speed Class、Application、Video Spe
 
 ## 主流产品
 主流产品主要有 **闪迪系列**、**三星系列**、**其他**（镁光、京东京造等），目前我们就讨论三星和闪迪，其他牌子将会在以后补充。
+
+注意：**不同容量**的**同款**内存卡**速度不一样**！一般都会买512GB的储存卡，这里以512GB容量举例。
 
 ### 闪迪
 市面上TF卡**最常见**的就是闪迪的红灰卡（Sandisk Ultra）和红金卡（Sandisk Extreme）。
