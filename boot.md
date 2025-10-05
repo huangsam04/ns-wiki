@@ -2,7 +2,7 @@
 title: 启动项
 description: hekate引导选项
 published: true
-date: 2025-08-28T16:41:23.810Z
+date: 2025-10-05T02:13:18.587Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T18:13:42.747Z
@@ -12,7 +12,7 @@ dateCreated: 2025-08-21T18:13:42.747Z
 > 本页面的介绍基于[葡萄糖酸菜鱼](https://space.bilibili.com/604067016)的整合包，根据作者不同，启动项名字、图片等可能不同，但原理都是一样的
 {.is-info}
 
-![启动选择页面.bmp](/base/boot/启动选择页面.bmp)
+![启动选择页面.bmp](/base/boot/启动选择页面.bmp =66%x)
 
 ## 配置文件
 hekate中显示的启动项由 **\bootloader\hekate_ipl.ini** 决定
