@@ -2,7 +2,7 @@
 title: 疑难解答
 description: FAQ
 published: true
-date: 2025-10-03T17:29:09.848Z
+date: 2025-10-05T02:25:03.868Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T10:51:15.511Z
@@ -139,12 +139,6 @@ dateCreated: 2025-08-21T10:51:15.511Z
 NS创建本地账户不会联网注册什么的，但是进入游戏的时候会要求绑定Switch Online账户
 然后拿Linkalho对账户进行假绑定，再把存档用JKSV恢复回去。
 如果一切正常就可以删除原来的正常绑定的账户了，使用你创建的新的假绑定账户游戏。
-
-## Panic occurred while running Atmosphere
-| Title ID           | 问题描述 / 解决方案                               |
-|-------------------|-------------------------------------------------|
-| 010000000000002B  | 系统可能因为极限超频损坏，重新创建虚拟系统即可。    |
-| XXXXXXXXXXXXXXXX  | 样板行样板行样板行样板行样板行样板行样板行样       |
 
 ## WiliWili 看视频太卡
 看一秒等待一秒缓存？可能是你设置缓存给的太少了。
