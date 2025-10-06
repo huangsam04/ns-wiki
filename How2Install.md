@@ -2,7 +2,7 @@
 title: 如何安装整合包
 description: How to Install Integration Package
 published: true
-date: 2025-10-06T06:20:49.831Z
+date: 2025-10-06T06:22:12.319Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T13:59:15.909Z
@@ -34,7 +34,7 @@ dateCreated: 2025-08-27T13:59:15.909Z
 - 一根正常的，可以传输数据的线。如果你的连接出现问题，首先考虑换一根线。
 
 ### 格式化TF卡
-你将会**丢失TF卡上所有数据**！请提前备份好你需要的文件。
+你将会**丢失TF卡上所有数据**！请提前备份好你需要的文件。新卡可以跳过这一步。
 下载 [SD协会的Sd Formatter](https://www.sdcard.org/downloads/formatter/)，[点此下载V5版](https://www.sdcard.org/downloads/formatter/eula_windows/SDCardFormatterv5_WinEN.zip) [从本站下载V5版](https://dl.awa.cool/huangsam04/SD%20Card%20Formatter%205.0.3%20Setup%20EN.exe) 。
 
 安装这个格式化软件，并打开。将你的TF卡插入进电脑里面，选择识别到的那个分区的盘符。例如我这里就识别为 `E:` 。
