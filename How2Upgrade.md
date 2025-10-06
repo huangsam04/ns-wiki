@@ -1,18 +1,12 @@
 ---
 title: 如何更新整合包&系统
-description: How to Upgrade Integration Package
+description: 本教程提供了**更新整合包**和**更新虚拟系统**的方法。
 published: true
-date: 2025-10-05T05:25:12.248Z
+date: 2025-10-06T07:11:05.475Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T14:32:27.410Z
 ---
-
-# 整合包来自于 [葡萄糖酸菜鱼](https://space.bilibili.com/604067016) 公益提供支持
-> 本文配套整合包为 葡萄糖酸菜鱼 提供更新服务，[夸克网盘下载链接](https://pan.quark.cn/s/3c0d28411181)。
-如果链接失效请通过首页的 [联系我们](/home) 来通知。
-本教程提供了**更新整合包+更新虚拟系统**的方法。
-{.is-info}
 
 ## 更新整合包
 有以下**注意事项**：
@@ -21,23 +15,36 @@ dateCreated: 2025-08-27T14:32:27.410Z
 曾经出现过老插件没有更新，而新整合包由于没有这个插件，所以覆盖的时候也没有覆盖，然而这个插件不兼容导致开不了机。
 - 不能使用DBI等Switch系统内的插件来换包，**建议把TF卡拔出来插到电脑上更新**。
 
-把卡插到电脑上，打开卡（也可以进入Hekate UMS挂载）。把**除了emuMMC和Nintendo以外**（emiibo、JKSV、RetroArch、roms等其他不冲突的文件夹也可以保留）的所有文件删除。这将意味着你**失去所有以前配置过的内容**。
+以葡萄糖酸菜鱼的整合包为例。
 
-然后再把新的酸菜鱼整合包中`大气层整合包本体`和你想要的附加包按照安装时的流程复制进去，拔下卡，插入Switch，完成。
+把卡插到电脑上，打开卡（也可以进入Hekate UMS挂载）。把**除了emuMMC和Nintendo以外**（emiibo、JKSV、RetroArch、roms等其他**不冲突**的文件也可以保留）的所有文件删除。这将意味着你**失去所有以前配置过的内容**。
+
+然后再把新的酸菜鱼整合包中`大气层整合包本体`和你想要的附加包按照安装时的流程复制进去。拔下卡，插入Switch，完成。
 
 ## 更新虚拟系统
-更新前为了防止异常，请先**卸载主题**。
-从葡萄糖酸菜鱼的夸克网盘分享中下载固件,例如`Firmware.20.3.0.zip` 。
+更新前为了防止异常，请先**卸载主题**，参考[NXThemesInstaller](/NXThemesInstaller) 。
+从葡萄糖酸菜鱼的夸克网盘分享中下载固件,例如`Firmware.20.5.0.zip` 。
 
-解压成一个文件夹，例如`Firmware.20.3.0`，移动至TF卡根目录（不是把里面的所有文件放到根目录）。
+解压成一个文件夹，例如 `Firmware.20.5.0` 。
+![unzip_firmware.png](/base/how2upgrade/unzip_firmware.png =66%x)
 
-进入虚拟系统，通过前端模式打开Daybreak（按住R打开游戏，选择Daybreak），选择Install，选择你的固件文件夹，例如`Firmware.20.3.0`，然后将会校验。
-等待校验完成后点击Continue 继续，点击右边的Preserve Settings保存设置。
+把这一个文件夹移动至TF卡根目录（不是把里面的文件放到根目录）。
+![cp1.png](/base/how2upgrade/cp1.png =50%x)![cp2.png](/base/how2upgrade/cp2.png =50%x)
 
-- 如果你的TF卡使用的是exFAT格式，请一定点击右边的Install(FAT32+exFAT)，否则无法进入系统
-- 如果你是跟着本站教程来的，那么你的卡应当是FAT32格式，点击左侧Install(FAT32)也可以。点击哪个无所谓。
+进入虚拟系统，打开Daybreak，选择 `安装`。
+![daybreak安装.jpg](/base/how2upgrade/daybreak安装.jpg =66%x)
 
-点击Continue 继续，等待进度条跑完点击Reboot 重启，重启到Hekate引导后点击启动-虚拟破解系统。
+选择你的固件文件夹，例如 `Firmware.20.5.0` ，然后将会校验。
+![daybreak选择文件夹.jpg](/base/how2upgrade/daybreak选择文件夹.jpg =50%x)![daybreak校验.jpg](/base/how2upgrade/daybreak校验.jpg =50%x)
+
+等待校验完成后点击 `继续` ，点击右边的 `保留设置` 。
+![daybreak保留设置.jpg](/base/how2upgrade/daybreak保留设置.jpg =66%x)
+
+选择SD卡驱动。
+- 如果你的TF卡使用的是exFAT格式，请一定点击右边的 `Install(FAT32+exFAT)` ，否则无法进入系统
+- 如果你是跟着本站 [如何安装整合包](/How2Install) 教程来的，那么你的卡应当是 `FAT32` 格式，点击左侧 `Install(FAT32)` 也可以。选择哪个无所谓。
+
+点击 `继续` ，等待进度条跑完点击 `重启` ，重启到Hekate引导后点击 `启动-虚拟破解` 。
 如果你再次回到了Hekate，这是正常的，再启动虚拟破解系统即可。
 
 > 如果你开机后报 `错误码 Error Code: 2168-0002`，并且第二行是 `Program: 0100000000001000`，请检查你是否没有删除主题。如果忘记删除可以参考 [NXThemesInstaller](/NXThemesInstaller) 的 强制删除主题 部分。
