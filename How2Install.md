@@ -2,7 +2,7 @@
 title: 如何安装整合包
 description: How to Install Integration Package
 published: true
-date: 2025-10-06T06:33:05.739Z
+date: 2025-10-06T06:33:49.932Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T13:59:15.909Z
@@ -16,7 +16,7 @@ dateCreated: 2025-08-27T13:59:15.909Z
 
 > 使用 Windows自带的分区软件，或者使用DiskGenius这种完善的第三方分区软件，都和Hekate内自带分区软件效果**不同**。
 它们不会使用AU对齐，而是使用512B或1MB对齐方法，这将会降低**大约30%写入**和**10%~30%读取**。
-目前支持AU对齐的只有这三个工具：Hekate， SD协会的Sd Formatter 和 HOS。本文就以使用Hekate分区来安装为例。
+目前支持AU对齐的只有这三个工具：Hekate，SD协会的Sd Formatter和HOS（本文使用前两个工具）。
 原文请看此 [Github Issue](https://github.com/CTCaer/hekate/issues/1138#event-20092252629)。
 {.is-warning}
 
