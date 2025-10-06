@@ -2,7 +2,7 @@
 title: Switch上能运行的系统
 description: 本文告诉你Switch上常见的系统种类和名字。
 published: true
-date: 2025-10-06T06:38:08.375Z
+date: 2025-10-06T06:40:49.167Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-04T06:58:06.983Z
@@ -33,7 +33,8 @@ dateCreated: 2025-10-04T06:58:06.983Z
 切记**不能安装盗版游戏数据，不能动存档，不能开挂**。
 
 ### 大气层虚拟破解系统
-需要在hekate中创建的一类系统。在设置版本里面可以发现版本号最后一位是 `E` 。
+需要在hekate中创建的一类系统。在设置版本里面可以发现版本号最后一位是 `E` （例如下图是 `20.3.0|AMS 1.9.5|E` ）。
+![serialnumber.jpg](/base/versionnumber.jpg =66%x)
 
 这种系统的原理是把机身emmc中自带的系统复制一份，放到TF卡中。然后在开机的时候加载TF卡中的系统，并加载大气层破解文件和各种插件等。
 
