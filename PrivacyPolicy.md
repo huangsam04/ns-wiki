@@ -2,13 +2,13 @@
 title: 隐私协议
 description: Privacy Policy
 published: true
-date: 2025-10-06T08:45:44.958Z
+date: 2025-10-06T10:46:03.433Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-06T05:11:24.614Z
 ---
 
-为了尽可能少收集你的数据，我们尽可能的使用Github Oauth登陆方式。这样可以不收集你的账户和密码，仅需要收集你的邮箱和IP。
+为了减少收集你的数据，我们尽可能的使用Github Oauth登陆方式。这样可以不收集你的账户和密码，仅需要收集你的邮箱和IP。
 
 ## NS Wiki
 **https://nsw.awa.cool/**
