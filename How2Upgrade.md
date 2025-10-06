@@ -1,8 +1,8 @@
 ---
-title: 如何更新整合包&系统
-description: 本教程提供了**更新整合包**和**更新虚拟系统**的方法。
+title: 如何更新大气层&固件
+description: 本教程提供了 更新整合包 和 更新虚拟系统 的方法。
 published: true
-date: 2025-10-06T08:22:10.092Z
+date: 2025-10-06T08:23:53.969Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T14:32:27.410Z
