@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-06T05:12:24.541Z
+date: 2025-10-06T05:51:56.955Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -35,5 +35,4 @@ dateCreated: 2025-08-20T15:05:03.120Z
 
 ## 联系我们
 如果有任何疑问、错误、疏漏 等等的，可以通过QQ或者邮箱来联系。
-交流QQ群号：955423869，1051287661 。
-站长（并非交流群群主）：QQ 2097647121 [huangsam04@vip.qq.com](mailto:huangsam04@vip.qq.com) 。
+交流QQ群号：955423869，1051287661 。站长（并非交流群群主）：QQ 2097647121 。
