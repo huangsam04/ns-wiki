@@ -2,7 +2,7 @@
 title: 破解Switch
 description: Crack Switch
 published: true
-date: 2025-10-05T13:13:02.548Z
+date: 2025-10-06T09:01:58.253Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -23,11 +23,12 @@ Switch1的Tegra X1提供一个Recovery Mode（恢复模式，简称RCM），用�
 3.2 根据BCT的配置，如果没找到有效的Bootloader，那么也会进入RCM
 4. 如果找到了Bootloader，那么控制权就会转移至Bootloader
 
-> BCT中提供了配置信息，用于配置boot memory，配置SDRAM（如果有需要的话，bootloader一般都会加载到SDRAM中），表明bootloader镜像的位置，bootloader加载到的内存地址，指定bootloader的入口。
+> BCT： 其提供了配置信息，用于配置boot memory，配置SDRAM（如果有需要的话，bootloader一般都会加载到SDRAM中），表明bootloader镜像的位置，bootloader加载到的内存地址，指定bootloader的入口。
+Bootloader： 用于启动操作系统的程序。
 {.is-info}
 
-> Bootloader是用于启动操作系统的程序。
-{.is-info}
+![hekateautorcm.bmp](/base/crack_switch/hekateautorcm.bmp =50%x)
+这就是AutoRCM的由来，破坏掉BCT让Switch自动进入RCM。
 
 ### RCM漏洞 CVE-2018-6242
 问题就出在Recovery Mode中。
