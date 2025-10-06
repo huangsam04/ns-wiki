@@ -2,7 +2,7 @@
 title: 如何更新整合包&系统
 description: 本教程提供了**更新整合包**和**更新虚拟系统**的方法。
 published: true
-date: 2025-10-06T08:18:40.238Z
+date: 2025-10-06T08:22:10.092Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T14:32:27.410Z
@@ -46,7 +46,10 @@ dateCreated: 2025-08-27T14:32:27.410Z
 - 如果你是跟着本站 [如何安装整合包](/How2Install) 教程来的，那么你的卡应当是 `FAT32` 格式，点击左侧 `Install(FAT32)` 也可以。选择哪个无所谓。
 
 ![daybreak最终确认.jpg](/base/how2upgrade/daybreak最终确认.jpg =66%x)
-点击 `继续` ，等待进度条跑完点击 `重启` ，进入Hekate引导后点击 `启动-虚拟破解` （ `虚拟极限` 也可）。
+点击 `继续` ，等待进度条跑完点击 `重启` 。
+![daybreak重启.jpg](/base/how2upgrade/daybreak重启.jpg =66%x)
+进入Hekate引导后点击 `启动-虚拟破解` （ `虚拟极限` 也可，下同）。
+
 如果你再次回到了Hekate，这是正常的，再启动 `虚拟破解` 系统即可。
 
 > 如果你开机后报 `错误码 Error Code: 2168-0002`，并且第二行是 `Program: 0100000000001000`，请检查你是否没有删除主题。如果忘记删除可以参考 [NXThemesInstaller](/NXThemesInstaller) 的 强制删除主题 部分。
