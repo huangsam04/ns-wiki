@@ -2,7 +2,7 @@
 title: 如何安装整合包
 description: How to Install Integration Package
 published: true
-date: 2025-10-06T06:22:12.319Z
+date: 2025-10-06T06:33:05.739Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T13:59:15.909Z
@@ -29,7 +29,7 @@ dateCreated: 2025-08-27T13:59:15.909Z
 ## 安装整合包（以Windows系统为例）
 ### 准备
 需要：
-- 一张TF卡。如果你没有，建议购买**正品的**闪迪红金卡，因为他是A2随机读写速度，而且可以个人送保修。
+- 一张TF卡。如果你没有，可以参考 [SD卡指南](/sdcard) 。
 - 一台Windows电脑。现在上面应该有你下载好的整合包，例如 `酸菜鱼大气层整合包1.9.3-v1.1.zip`。
 - 一根正常的，可以传输数据的线。如果你的连接出现问题，首先考虑换一根线。
 
