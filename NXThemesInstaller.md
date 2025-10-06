@@ -2,7 +2,7 @@
 title: 管理主题&主题补丁
 description: 本文将会告诉你怎么安装主题，以及卸载他们。
 published: true
-date: 2025-10-03T17:08:29.844Z
+date: 2025-10-03T17:08:31.167Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-29T15:14:28.887Z

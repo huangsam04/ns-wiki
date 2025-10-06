@@ -2,7 +2,7 @@
 title: 启动项
 description: hekate引导选项
 published: true
-date: 2025-10-05T02:13:18.587Z
+date: 2025-10-05T02:13:19.828Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T18:13:42.747Z

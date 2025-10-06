@@ -2,7 +2,7 @@
 title: 如何安装整合包
 description: How to Install Integration Package
 published: true
-date: 2025-10-06T08:54:01.803Z
+date: 2025-10-06T08:54:03.118Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T13:59:15.909Z

@@ -2,7 +2,7 @@
 title: 常见词汇介绍
 description: CommonTerms
 published: true
-date: 2025-10-04T06:39:00.461Z
+date: 2025-10-04T06:39:01.734Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T05:36:11.237Z

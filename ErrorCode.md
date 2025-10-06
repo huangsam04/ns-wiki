@@ -2,7 +2,7 @@
 title: 错误码
 description: 从这里查找Switch常见的错误码。
 published: true
-date: 2025-10-05T17:09:56.676Z
+date: 2025-10-05T17:09:58.056Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-05T02:31:51.363Z

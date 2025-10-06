@@ -2,7 +2,7 @@
 title: 如何降级系统
 description: 本文将会告诉你怎么给Switch降级。
 published: true
-date: 2025-10-05T02:18:03.309Z
+date: 2025-10-05T02:18:04.578Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T16:45:45.966Z
