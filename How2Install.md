@@ -2,7 +2,7 @@
 title: 如何安装整合包
 description: How to Install Integration Package
 published: true
-date: 2025-10-04T10:51:12.415Z
+date: 2025-10-06T06:20:49.831Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T13:59:15.909Z
@@ -42,20 +42,33 @@ dateCreated: 2025-08-27T13:59:15.909Z
 
 点击右下角 `Format`， 执行格式化，选择 `是(Y)` 。	
 
-### 拷贝入整合包
+### 拷入Hekate
 这时候你的TF卡上面将会只有一个分区，打开格式化好的TF卡。
 阅读 `文档` 文件夹里面的内容。按照整合包里面的操作提示，把 `大气层整合包本体` 文件夹内的所有文件拷贝到TF卡根目录。
 ![放好文件.png](/base/install/放好文件.png =66%x)
 
 这里**不需要**拷入其他的附加包等等，后面分区的时候大多都会丢失，后面会重新拷入。
 
-### 分区
-从电脑上拿下来TF卡，插入到Switch里面，开机。此时应该提示HEKATE启动标，并要求你输入日期和时间，可以忽略。
+### 设置Hekate
+把TF卡插入Switch，开机，正常情况下你会来到这个界面。
+![设置nyx时间.bmp](/base/install/设置nyx时间.bmp =66%x)
+你可以不设置，这无关紧要。
 
-点击上边栏的 `工具`，选择 `SD卡分区管理`。点击 `不备份`。
+来到Hekate主页。
+![hekate主页.bmp](/base/install/hekate主页.bmp =66%x)
+
+### 分区
+点击上方 `工具` 按钮。
+![hekate工具.bmp](/base/install/hekate工具.bmp =66%x)
+
+选择 `SD卡分区管理`，`不备份`/`确定` 均可。
+![hekatesd卡分区管理.bmp](/base/install/hekatesd卡分区管理.bmp =50%x)![hekatesd卡分区管理初始.bmp](/base/install/hekatesd卡分区管理初始.bmp =50%x)
 
 将第二个分区条 `emuMMC(RAW)` 拖动到12GiB处，点击右下角 `下一步`， `开始` ，按下 `电源键` 。
+![hekatesd卡分区管理调整.bmp](/base/install/hekatesd卡分区管理调整.bmp =66%x)
+![hekatesd卡分区管理警告.bmp](/base/install/hekatesd卡分区管理警告.bmp =50%x)![hekatesd卡分区管理完成.bmp](/base/install/hekatesd卡分区管理完成.bmp =50%x)
 
+### 拷入整合包
 完成后点击左下角 `SD UMS` ，把Switch连接到电脑上，重新拷入 `大气层整合包本体` ，覆盖拷入。
 
 如果你需要其他内容，可以打开 `附加包` 文件夹，并阅读你想要使用的包的 文件夹里面 的教程。	
@@ -63,11 +76,36 @@ dateCreated: 2025-08-27T13:59:15.909Z
 
 同时按下电源键+-，退出 `SD UMS` 模式，回到主页。
 
+### 创建虚拟系统
 点击主页右侧的`虚拟系统`，你应当看到左侧emuMMC信息和选项处是 `× 关！`。
-点击右侧emuMMC工具 `创建emuMMC`，选择`SD卡分区`，选择`第1部分`，然后你会等待一段时间创建完成（大约是一分钟），返回到主页。
+![hekate虚拟系统关.bmp](/base/install/hekate虚拟系统关.bmp =66%x)
+
+点击右侧emuMMC工具 `创建emuMMC`，选择`SD卡分区`，选择`第1部分`。
+![hekate虚拟系统创建emummc.bmp](/base/install/hekate虚拟系统创建emummc.bmp =50%x)![hekate虚拟系统创建emummc第一部分.bmp](/base/install/hekate虚拟系统创建emummc第一部分.bmp =50%x)
+
+然后你会等待一段时间创建完成（大约是一分钟）。
+![hekate虚拟系统创建emummc完成.bmp](/base/install/hekate虚拟系统创建emummc完成.bmp =66%x)
+
+你会发现左侧 `emuMMC信息` 变成了 `开!` ，而且类型是 `SD卡分区` 。回到主页。
+![hekate虚拟系统开.bmp](/base/install/hekate虚拟系统开.bmp =66%x)
 
 ## 完成
-点击`启动`，选择`虚拟破解`，正常情况下会开机，然后就可以快乐的使用各种学习版软件、好玩的模组和插件了。
+点击`启动` ，选择`虚拟破解` 。
+![hekate启动.bmp](/base/install/hekate启动.bmp =66%x)
+
+正常情况下会开机并显示和你的正版系统一摸一样的内容，然后就可以快乐的使用各种学习版软件、好玩的模组和插件了。
+
+## 自动启动
+点击上方 `选项` 按钮。
+![hekate自动启动.bmp](/base/install/hekate自动启动.bmp =66%x)
+
+点击 `自动启动 OFF`。
+![hekate自动启动选项.bmp](/base/install/hekate自动启动选项.bmp =66%x)
+
+选择你想要的配置，例如点击 `虚拟破解` 。然后就会提示 `自动启动 ON` 。点击下方 `保存选项` 。
+![hekate自动启动on.bmp](/base/install/hekate自动启动on.bmp =66%x)
+
+## 附录
 如果你下次把TF卡连接到电脑提示：`使用驱动器E:中的光盘之前需要将其格式化。`请不要格式化！格式化了你的Switch虚拟系统就没了。
 可以打开`DiskGenius`，在磁盘树中选择你的TF卡，`右键`那个12G的分区，选择`隐藏/取消隐藏 当前分区` 来隐藏这个分区。
 这样下次TF卡插入电脑就不会提示异常了。
