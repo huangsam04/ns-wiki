@@ -2,7 +2,7 @@
 title: 常见词汇介绍
 description: CommonTerms
 published: true
-date: 2025-10-04T06:39:01.734Z
+date: 2025-10-06T12:43:36.015Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T05:36:11.237Z
@@ -15,7 +15,7 @@ dateCreated: 2025-08-21T05:36:11.237Z
 
 ## 前端，面板，Title
 原名Title。
-![解释前端.jpg](/base/commonterms/解释前端.jpg)
+![解释前端.jpg](/base/commonterms/解释前端.jpg =66%x)
 
 当你安装了一个新游戏的时候，switch主页中间那一行正方形便会有一个显示游戏。
 
@@ -24,7 +24,7 @@ dateCreated: 2025-08-21T05:36:11.237Z
 ## 注入游戏启动
 按住R打开任意一个游戏，直到显示HBmenu，sphaira等的界面，然后再从这里面打开程序。
 
-![前端模式sphaira.jpg](/base/commonterms/前端模式sphaira.jpg)
+![前端模式sphaira.jpg](/base/commonterms/前端模式sphaira.jpg =66%x)
 
 在这个模式下打开的程序拥有和前端启动的软件一样的权限。（较高）
 
@@ -38,11 +38,11 @@ HBmenu已经停更，目前接替的就是sphaira。
 一般来说是打开相册进入HBmenu，按住R打开相册是进入正常的相册。
 
 这是Sphaira↓
-![小程序模式sphaira.jpg](/base/commonterms/小程序模式sphaira.jpg)
+![小程序模式sphaira.jpg](/base/commonterms/小程序模式sphaira.jpg =66%x)
 
 ## 究极手，ultrahand，uberhand
 究极手是ultrahand的翻译。uberhand是ultrahand的分支，不过现在已经停更。
-![究极手.jpg](/base/commonterms/究极手.jpg)
+![究极手.jpg](/base/commonterms/究极手.jpg =66%x)
 
 例如 [葡萄糖酸菜鱼](https://space.bilibili.com/604067016) 的整合包就是按下ZL+ZR+方向下 打开。
 
@@ -75,7 +75,7 @@ Custom Firmware，指自定义后的系统。
 是一个Moonlight的switch客户端，用于串流游戏。
 
 ### [NX Activity log](https://github.com/tallbl0nde/NX-Activity-Log)
-在无法连接NS网路的时候，无法查看自己的游戏时间，而这个软件实现了这个功能。
+在无法连接NS网络的时候，无法查看自己的游戏时间，而这个软件实现了这个功能。
 
 ### [Wiliwili](https://github.com/xfangfang/wiliwili)
 Bilibili的第三方客户端实现。不支持在小程序模式下打开，需使用注入启动方式或者安装到前端使用。
