@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-06T05:51:58.205Z
+date: 2025-10-06T10:30:14.106Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -27,7 +27,7 @@ dateCreated: 2025-08-20T15:05:03.120Z
 木炉星以及其他子项目**不与[星际拓荒](/OuterWilds)官方有关**。
 {.is-info}
 1. [木炉星上のNS Wiki](https://nsw.awa.cool) （本项目）
-2. [木炉星 下载站](https://dl.awa.cool/) 把dl改为dl2即可从2站下载
+2. [木炉星 下载站](https://dl.awa.cool/)
 
 ## 参与改进我们的项目
 目前本站还并未达到目标，急需大家参与改进！**感谢**！
