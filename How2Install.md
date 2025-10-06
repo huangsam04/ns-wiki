@@ -2,7 +2,7 @@
 title: 如何安装整合包
 description: How to Install Integration Package
 published: true
-date: 2025-10-06T06:33:49.932Z
+date: 2025-10-06T08:54:01.803Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T13:59:15.909Z
@@ -34,17 +34,20 @@ dateCreated: 2025-08-27T13:59:15.909Z
 - 一根正常的，可以传输数据的线。如果你的连接出现问题，首先考虑换一根线。
 
 ### 格式化TF卡
-你将会**丢失TF卡上所有数据**！请提前备份好你需要的文件。新卡可以跳过这一步。
+> 本段不是必须的， `新卡` 、 `只有一个分区` 或者 `可以被switch正常读取的卡` 等可以跳过这一步。本段的目的是清空卡上面所有分区信息，让卡初始化。
+{.is-info}
+
+你将会**丢失TF卡上所有数据**！请提前备份好你需要的文件。
+
 下载 [SD协会的Sd Formatter](https://www.sdcard.org/downloads/formatter/)，[点此下载V5版](https://www.sdcard.org/downloads/formatter/eula_windows/SDCardFormatterv5_WinEN.zip) [从本站下载V5版](https://dl.awa.cool/huangsam04/SD%20Card%20Formatter%205.0.3%20Setup%20EN.exe) 。
 
 安装这个格式化软件，并打开。将你的TF卡插入进电脑里面，选择识别到的那个分区的盘符。例如我这里就识别为 `E:` 。
-![sd_card_formatter.png](/base/install/sd_card_formatter.png =33%x)
+![sd_card_formatter.png](/base/install/sd_card_formatter.png =22%x)
 
-点击右下角 `Format`， 执行格式化，选择 `是(Y)` 。	
+点击右下角 `Format`， 执行格式化，选择 `是(Y)` 。	这时候你的TF卡上面将会只有一个分区，打开格式化好的TF卡。
 
 ### 拷入Hekate
-这时候你的TF卡上面将会只有一个分区，打开格式化好的TF卡。
-阅读 `文档` 文件夹里面的内容。按照整合包里面的操作提示，把 `大气层整合包本体` 文件夹内的所有文件拷贝到TF卡根目录。
+阅读 酸菜鱼葡萄糖 整合包中 `文档` 文件夹里面的内容。按照整合包里面的操作提示，把 `大气层整合包本体` 文件夹内的所有文件拷贝到TF卡根目录。
 ![放好文件.png](/base/install/放好文件.png =66%x)
 
 这里**不需要**拷入其他的附加包等等，后面分区的时候大多都会丢失，后面会重新拷入。
@@ -58,6 +61,11 @@ dateCreated: 2025-08-27T13:59:15.909Z
 ![hekate主页.bmp](/base/install/hekate主页.bmp =66%x)
 
 ### 分区
+> 执行本段会清空SD卡上面大部分文件。
+Hekate调整分区的时候会移除所有文件，修改分区配置，最后恢复所有文件，但Hekate只能备份1G以下的文件。
+这也是下文为什么又重新拷入了一遍整合包。
+{.is-info}
+
 点击上方 `工具` 按钮。
 ![hekate工具.bmp](/base/install/hekate工具.bmp =66%x)
 
