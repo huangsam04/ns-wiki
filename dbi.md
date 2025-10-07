@@ -1,8 +1,8 @@
 ---
 title: 安装/提取游戏 DBI
-description: Duckbill
+description: DB Installer？Duckbill！
 published: true
-date: 2025-10-07T03:57:36.001Z
+date: 2025-10-07T14:06:58.794Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-01T13:53:34.747Z
