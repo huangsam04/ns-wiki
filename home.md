@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-07T14:46:12.692Z
+date: 2025-10-07T14:46:25.327Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -13,7 +13,7 @@ dateCreated: 2025-08-20T15:05:03.120Z
 </div>
 
 <p id="typewriter-container" class="retro-font">
-  <span id="typewriter"></span><span id="cursor">█</span>
+  <span id="typewriter"></span><span id="cursor">|</span>
 </p>
 
 
