@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-07T14:43:41.504Z
+date: 2025-10-07T14:45:10.788Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -12,9 +12,10 @@ dateCreated: 2025-08-20T15:05:03.120Z
   <img src="https://dl.awa.cool/huangsam04/Banner.avif" style="width:100%; height:100%; object-fit:cover; object-position:top center;">
 </div>
 
-<p style="text-align:center; font-size:36px; font-family: 'Press Start 2P', monospace;">
-  Timber Hearth NS·Wiki
+<p id="typewriter-container" class="retro-font">
+  <span id="typewriter"></span><span id="cursor">█</span>
 </p>
+
 
 ## <center> 欢迎访问 木炉星 上の NS Wiki </center>
 
