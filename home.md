@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-07T14:52:38.202Z
+date: 2025-10-07T14:55:22.179Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -13,11 +13,9 @@ dateCreated: 2025-08-20T15:05:03.120Z
 </div>
 
 <p id="typewriter-container" class="retro-font">
-  <span id="typewriter-line1"></span><span id="cursor">/</span><br>
+  <span id="typewriter-line1"></span><span id="cursor">></span><br>
   <span id="typewriter-line2" class="subtitle"></span>
 </p>
-
-
 
 本Wiki的目的是 **一站式**解决NS玩机中的问题。
 当你有任何不会的，可以**点开本页上面的搜索框**，键入你要搜索的内容来查询。
