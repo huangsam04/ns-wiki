@@ -2,7 +2,7 @@
 title: 感谢你们的支持
 description: 本篇记录了致谢的对象。
 published: true
-date: 2025-10-07T02:55:39.556Z
+date: 2025-10-07T12:03:03.712Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T02:15:42.829Z
@@ -44,4 +44,5 @@ dateCreated: 2025-08-28T02:15:42.829Z
 </table>
 
 ## 感谢开源项目！
-本站使用[Wiki.js](https://docs.requarks.io/) 软件搭建，主题使用[wikijs-citizen-styles](https://github.com/AurLemon/wikijs-citizen-styles) ，折叠树状图使用[wikijs-customization](https://github.com/madodig/wikijs-customization/) 改，自动贡献者使用[wikijs-AutoContributors](https://github.com/huangsam04/wikijs-AutoContributors)，网站Sitemap使用[wikijs-seo-tools](https://github.com/zivenyang/wikijs-seo-tools) 。
+本站使用[Wiki.js](https://docs.requarks.io/) 软件搭建，主题使用[wikijs-citizen-styles](https://github.com/AurLemon/wikijs-citizen-styles) ，折叠树状图使用[wikijs-customization](https://github.com/madodig/wikijs-customization/) 改，自动贡献者使用[wikijs-AutoContributors](https://github.com/huangsam04/wikijs-AutoContributors)，网站Sitemap使用[wikijs-seo-tools](https://github.com/zivenyang/wikijs-seo-tools)，最近修改使用[zivenyang
+的脚本](https://github.com/zivenyang/wikijs-seo-tools/issues/2) 改 。
