@@ -2,7 +2,7 @@
 title: 注册说明
 description: AccountRegistration
 published: true
-date: 2025-10-07T13:46:48.618Z
+date: 2025-10-07T13:47:23.069Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-22T12:36:26.341Z
@@ -13,8 +13,8 @@ dateCreated: 2025-08-22T12:36:26.341Z
 {.is-info}
 
 > **警告**
-> 将在两个周后删除所有 账密 方式的账户，并隐藏账密登录方式。
-请立刻注册Github方式并向站长发邮件声明，以迁移账户。
+> 将在两个周后删除所有 账密 方式的账户，并隐藏账密登录方式，届时本页面将会被删除。
+请**立刻**注册Github方式并向站长发邮件声明，以迁移账户。
 {.is-danger}
 
 ## [Github](https://github.com) 方式
