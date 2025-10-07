@@ -2,7 +2,7 @@
 title: Switch破解历史&原理
 description: Crack Switch
 published: true
-date: 2025-10-07T07:33:04.604Z
+date: 2025-10-07T07:33:50.557Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -14,7 +14,7 @@ dateCreated: 2025-08-21T04:49:54.579Z
 
 ## RCM漏洞发现以前(2017.3.3-2017.12.31)
 早期破解，通过软件漏洞实现。例如利用`LayeredFS`替换合法游戏的`TID`运行备份游戏
-![crackswitch_layeredfs.jpg](/base/crack_switch/crackswitch_layeredfs.jpg "游戏TID替换工具")
+![crackswitch_layeredfs.jpg](/base/crack_switch/crackswitch_layeredfs.jpg "游戏TID替换工具" =75%x)
 早期破解主要集中在低版本系统`HOS 5.1.0 -`，以特定的试玩版游戏作为破解入点，具体就是通过备份的游戏ROM替换下载的试玩版游戏，但是过程非常繁琐，兼容性也一般。有些游戏只能通过特定的试玩版游戏启动，有些游戏的试玩版无法启动它对应的正式版游戏。这段时间，黑客们的主要工作就集中在测试哪些游戏可以由哪些试玩版游戏替换启动。
 
 ## RCM漏洞发现以后(2017.12.31-)
@@ -27,7 +27,7 @@ TX小组于2018年5月首先放出了商业化破解方案`SX PRO`，包括短�
 ### Mariko 机型
 2019年8月30日，任天堂发售了续航加强版Switch，Switch lite同步开始预订；2019年9月20日，任天堂发售了Nintendo Switch Lite，这是一款专为便携游戏设计的轻量级版本；2020年9月，任天堂宣布将推出Nintendo Switch OLED版，并于2021年10月8日正式发售。这三款机型使用改进款Tegra X1，芯片制程从20纳米提升至14纳米大幅改进了续航和发热表现。但是`Mariko`机型无法像大部分`Erista`机型那样直接进入**RCM模式**。
 TX小组于2020年初公开了自己的硬破芯片`SX Core/Lite`，适用于Switch(部分无法使用注入器的`Erista`机型)初代和switch lite。几个月后，TX小组被由美国牵头多国执法机构联合组成的跨国执法团队，逮捕了全部核心成员，包括两名法国籍成员和一名中国籍成员。TX小组被捕后，国内TX芯片的价格由四百多人民币被炒到一千多人民币。这时期国内出现过租芯片破解，即不把芯片焊接到Switch主板，拆机引导自制系统后使用，重启需要重新破解。
-![现在的SXOS官网](/base/crack_switch/crackswitch_sxos.jpg "现在SXOS官网的域名已被ICE-美国国土安全局没收")
+![现在的SXOS官网](/base/crack_switch/crackswitch_sxos.jpg "现在SXOS官网的域名已被ICE-美国国土安全局没收" =75%x)
 2021-2024年间，涌现出一大批国产仿制TX芯片，功能类似但价格更低。其中较为成熟的是**HWFLY芯片**，基于开源固件`Spacecraft NX`开发(即“小飞船”固件)。国产第一代芯片普遍成本在￥200-300，平均玩家到手价格在￥500-600；后来的**HWFLY芯片**成本在￥100-200，焊接总费用在￥300-500之间。
 2023年3月份，又有开发者使用**树莓派RP2040**成功引导了大气层系统，当时这颗芯片国内批量拿货价￥4。之前的TX芯片与国产芯片价格昂贵是因为采用了FPGA方案，而树莓派RP2040本身就应用广泛。到了2025年的今天，全系焊接总费用普遍已经来到了100元人民币以下。
 
