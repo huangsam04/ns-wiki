@@ -2,7 +2,7 @@
 title: Switch破解历史&原理
 description: Crack Switch
 published: true
-date: 2025-10-07T07:09:47.549Z
+date: 2025-10-07T07:13:15.934Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -39,6 +39,7 @@ TX小组于2020年初公开了自己的硬破芯片`SX Core/Lite`，适用于Swi
     4，有证书的正版游戏数据是不会被封
     5，无证书资源无法运行
 > 并非绝对安全!!!
+{.is-warning}
 
 # 怎么破解的？
 
