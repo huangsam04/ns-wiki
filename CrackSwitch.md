@@ -2,7 +2,7 @@
 title: Switch破解历史&原理
 description: Crack Switch
 published: true
-date: 2025-10-24T12:29:41.706Z
+date: 2025-10-24T12:30:38.664Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -126,7 +126,10 @@ GET_STATUS协议规定，Switch应当返回一定信息（在栈里面，即图�
 
 如此一来，我们就控制了RCM。RCM有最高权限级别，于是我们就可以将任意代码加载到主CPU复合体（CCPLEX，指所有CPU核心以及它们共享的缓存）了。 
 
-```mermaid
+<details>
+  <summary>点击展开：RCM 利用流程图（竖向）</summary>
+
+  <div class="mermaid">
 graph TD
     A["1. 主机与 Switch 建立 USB 通信"] --> B["2. bootROM 接收 RCM 消息"]
     B --> B2["RCM Payload 写入 RCM Payload 区"]
@@ -144,7 +147,8 @@ graph TD
 
     classDef critical fill:#ffe6e6,stroke:#ff4d4d;
     class I,L critical;
-```
+  </div>
+</details>
 
 聪明的你一定想到了，这就是**溢出类漏洞**。
 > 溢出类漏洞
