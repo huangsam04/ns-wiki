@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-24T07:35:36.471Z
+date: 2025-10-24T09:52:43.209Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -25,7 +25,11 @@ dateCreated: 2025-08-20T15:05:03.120Z
 > **木炉星**是哈斯人的**母星**，也是**旅程开始的地方**。它主要由岩石组成，以森林、间歇泉山、河流和瀑布为特点。除了草地平原、雪山和大型陨石坑之外，几乎没有什么别的地形。哈斯人的村庄就是在其中一个坑里。 
 木炉星以及其他子项目**不与星际拓荒官方有关**。
 {.is-info}
-1. [木炉星上のNS Wiki](https://nsw.awa.cool) （本项目）
+
+> 正在更换到新域名 https://nswiki.cn ，可能访问异常。
+{.is-info}
+
+1. [木炉星上のNS Wiki](https://nswiki.cn) （本项目）
 2. [木炉星 下载站](https://dl.awa.cool/)
 
 ## 参与改进我们的项目
