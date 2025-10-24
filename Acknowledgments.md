@@ -2,21 +2,22 @@
 title: 感谢你们的支持
 description: 本篇记录了致谢的对象。
 published: true
-date: 2025-10-24T06:12:51.846Z
+date: 2025-10-24T11:32:28.293Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T02:15:42.829Z
 ---
 
 ## 支持我们
-本维基项目完全是出于**爱好**搭建的，将不再收取捐赠，感谢你有支持我们的心！
+本维基项目完全是出于**爱好**搭建的，将**不再**收取捐赠，感谢你有支持我们的心！
 
 <details>
   <summary>旧的捐赠说明</summary>
-**维护项目运营**比较耗钱，如果您希望支持本项目**运营**，可以进入交流QQ群并向**站长**发红包。捐赠的钱**不能提升内容质量**，只能用于**维护服务的运营**。
-请注意，我们**没有强制**要求您捐赠等一切向我们交钱的行为。本站所有引用的外部资源都**不会由本站额外收费**，因此即便您捐了钱我也不保证向您提供更多的服务。如果您要向我捐赠，那一定是出于您**自身的意愿**，即为了支持本项目能**更长的运行**的目的，而不是别的。
-捐款后请向站长说明，确认后会将您、您的捐款金额和一句可以附带的话添加进下方的表格里面。
+  <p><strong>维护项目运营</strong>比较耗钱，如果您希望支持本项目<strong>运营</strong>，可以进入交流QQ群并向<strong>站长</strong>发红包。捐赠的钱<strong>不能提升内容质量</strong>，只能用于<strong>维护服务的运营</strong>。</p>
+  <p>请注意，我们<strong>没有强制</strong>要求您捐赠等一切向我们交钱的行为。本站所有引用的外部资源都<strong>不会由本站额外收费</strong>，因此即便您捐了钱我也不保证向您提供更多的服务。如果您要向我捐赠，那一定是出于您<strong>自身的意愿</strong>，即为了支持本项目能<strong>更长的运行</strong>的目的，而不是别的。</p>
+  <p>捐款后请向站长说明，确认后会将您、您的捐款金额和一句可以附带的话添加进下方的表格里面。</p>
 </details>
+
 
 <h2>感谢大家的赞助！</h2>
 按照时间顺序排序。
@@ -49,5 +50,7 @@ dateCreated: 2025-08-28T02:15:42.829Z
 </table>
 
 ## 感谢开源项目！
-本站使用[Wiki.js](https://docs.requarks.io/) 软件搭建，主题使用[wikijs-citizen-styles](https://github.com/AurLemon/wikijs-citizen-styles) ，折叠树状图使用[wikijs-customization](https://github.com/madodig/wikijs-customization/) 改，自动贡献者使用[wikijs-AutoContributors](https://github.com/huangsam04/wikijs-AutoContributors)，网站Sitemap使用[wikijs-seo-tools](https://github.com/zivenyang/wikijs-seo-tools)，最近修改使用[zivenyang
-的脚本](https://github.com/zivenyang/wikijs-seo-tools/issues/2) 改 。
+本站使用[Wiki.js](https://docs.requarks.io/) 软件搭建，站点主题使用[wikijs-citizen-styles](https://github.com/AurLemon/wikijs-citizen-styles) ，折叠树状图使用[wikijs-customization](https://github.com/madodig/wikijs-customization/) （改），自动贡献者使用[wikijs-AutoContributors](https://github.com/huangsam04/wikijs-AutoContributors)，网站Sitemap使用[wikijs-seo-tools](https://github.com/zivenyang/wikijs-seo-tools)，[最近修改](/RecentChanges)使用[zivenyang
+的脚本](https://github.com/zivenyang/wikijs-seo-tools/issues/2) （改） 。
+
+评论站使用[Artalk](https://artalk.js.org/) 软件搭建。
