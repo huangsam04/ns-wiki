@@ -2,7 +2,7 @@
 title: Switch破解历史&原理
 description: Crack Switch
 published: true
-date: 2025-10-24T12:12:22.599Z
+date: 2025-10-24T12:13:19.515Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -58,6 +58,7 @@ Switch1的Tegra X1提供一个Recovery Mode（恢复模式，简称RCM），用�
 4. 如果找到了Bootloader，那么控制权就会转移至Bootloader
 
 ```mermaid
+graph TD
     A[Switch 通电] --> B[bootCPU 执行 bootROM]
     B --> C[bootROM 决定执行代码所需的内存芯片]
     C --> D[读取启动配置表（BCT）]
@@ -67,6 +68,7 @@ Switch1的Tegra X1提供一个Recovery Mode（恢复模式，简称RCM），用�
 
     F -->|未找到有效 Bootloader| E
     F -->|找到 Bootloader| G[转移控制权至 Bootloader]
+
 ```
 
 > BCT： 其提供了配置信息，用于配置boot memory，配置SDRAM（如果有需要的话，bootloader一般都会加载到SDRAM中），表明bootloader镜像的位置，bootloader加载到的内存地址，指定bootloader的入口。
