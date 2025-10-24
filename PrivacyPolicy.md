@@ -2,7 +2,7 @@
 title: 隐私协议
 description: Privacy Policy
 published: true
-date: 2025-10-07T14:03:39.376Z
+date: 2025-10-24T11:37:37.859Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-06T05:11:24.614Z
@@ -14,7 +14,7 @@ dateCreated: 2025-10-06T05:11:24.614Z
 {.is-info}
 
 ## NS Wiki（本站）
-**https://nsw.awa.cool/**
+**https://nswiki.cn/**
 | 收集的数据 | 收集目的 |
 | ----------- | ---------- |
 | 邮箱    | 作为身份标识符，鉴权用。 |
