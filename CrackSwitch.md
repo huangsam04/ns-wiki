@@ -2,7 +2,7 @@
 title: Switch破解历史&原理
 description: Crack Switch
 published: true
-date: 2025-10-24T12:16:58.570Z
+date: 2025-10-24T12:19:47.532Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -50,29 +50,23 @@ TX小组于2020年初公开了自己的硬破芯片`SX Core/Lite`，适用于Swi
 Switch1的Tegra X1提供一个Recovery Mode（恢复模式，简称RCM），用于厂商救砖一类的操作，这个模式写在了只读的bootROM中。
 
 ### Switch开机过程
-1. 在Switch通电后，bootCPU就会执行bootROM
-2. bootROM 首先决定执行代码所需要的内存芯片
-3. 内存决定下来后，读取启动配置表（[Boot Configuration Table](https://http.download.nvidia.com/tegra-public-appnotes/bct-overview.html)，简称BCT）
-3.1 如果读取BCT失败，那么就会进入RCM
-3.2 根据BCT的配置，如果没找到有效的Bootloader，那么也会进入RCM
-4. 如果找到了Bootloader，那么控制权就会转移至Bootloader
-
-``````mermaid
+```mermaid
 graph TD
-    A[Switch 通电] --> B[bootCPU 执行 bootROM]
-    B --> C[bootROM 决定执行代码所需的内存芯片]
-    C --> D[读取启动配置表（BCT）]
+    A["Switch 通电"] --> B["bootCPU 执行 bootROM"]
+    B --> C["bootROM 决定执行代码所需的内存芯片"]
 
-    D -->|读取失败| E[进入 RCM 模式]
-    D -->|读取成功| F[根据 BCT 配置检查 Bootloader]
+    C --> D["读取启动配置表(BCT)"]
 
-    F -->|未找到有效 Bootloader| E
-    F -->|找到 Bootloader| G[转移控制权至 Bootloader]
+    D -->|"读取失败"| E["进入 RCM 模式"]
+    D -->|"读取成功"| F["根据 BCT 配置检查 Bootloader"]
+
+    F -->|"未找到有效 Bootloader"| E
+    F -->|"找到 Bootloader"| G["转移控制权至 Bootloader"]
 ```
 
-> BCT： 其提供了配置信息，用于配置boot memory，配置SDRAM（如果有需要的话，bootloader一般都会加载到SDRAM中），表明bootloader镜像的位置，bootloader加载到的内存地址，指定bootloader的入口。
+BCT（[Boot Configuration Table](https://http.download.nvidia.com/tegra-public-appnotes/bct-overview.html)）： 其提供了配置信息，用于配置boot memory，配置SDRAM（如果有需要的话，bootloader一般都会加载到SDRAM中），表明bootloader镜像的位置，bootloader加载到的内存地址，指定bootloader的入口。
+
 Bootloader： 用于启动操作系统的程序。
-{.is-info}
 
 ![hekateautorcm.bmp](/base/crack_switch/hekateautorcm.bmp =50%x)
 这就是AutoRCM的由来，破坏掉BCT让Switch自动进入RCM。
