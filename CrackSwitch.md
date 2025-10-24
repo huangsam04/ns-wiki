@@ -2,7 +2,7 @@
 title: Switch破解历史&原理
 description: Crack Switch
 published: true
-date: 2025-10-24T12:31:50.330Z
+date: 2025-10-24T12:32:54.296Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
@@ -126,30 +126,25 @@ GET_STATUS协议规定，Switch应当返回一定信息（在栈里面，即图�
 
 如此一来，我们就控制了RCM。RCM有最高权限级别，于是我们就可以将任意代码加载到主CPU复合体（CCPLEX，指所有CPU核心以及它们共享的缓存）了。 
 
-<details>
-  <summary>点击展开：RCM 利用流程图（竖向）</summary>
-
-  <div class="mermaid">
+```mermaid
 graph TD
-    A("主机与Switch建立USB通信") --> B("bootROM接收RCM消息")
-    B --> B2("RCM Payload写入RCM区")
-    B2 --> C("主机发送GET_STATUS")
-    C --> D("主机指定wLength")
-    D --> E("bootROM拷贝栈中wLength字节到USB DMA Buffer2")
-    E --> F{"wLength > 2 ?"}
-    F -->|否| G("仅拷贝2字节 返回正常")
-    F -->|是| H("拷贝超出Buffer2范围")
-    H --> I("RCM Payload数据覆盖栈区")
-    I --> J{"返回指针被覆盖?"}
-    J -->|否| K("未获得控制权 可能崩溃")
-    J -->|是| L("返回指针跳转到Payload代码")
-    L --> M("获得RCM权限 执行任意代码")
+    A["1. 主机与 Switch 建立 USB 通信"] --> B["2. bootROM 接收 RCM 消息"]
+    B --> B2["RCM Payload 写入 RCM Payload 区"]
+    B2 --> C["3. 主机发送 GET_STATUS"]
+    C --> D["4. 主机在包内指定 wLength"]
+    D --> E["5. bootROM 将栈中 wLength 字节拷贝到 USB DMA Buffer2"]
+    E --> F{"6. wLength > 期望 (2)?"}
+    F -->|否| G["7. 仅拷贝 2 字节 未破坏栈 返回正常"]
+    F -->|是| H["8. 拷贝超出 USB DMA Buffer2 范围"]
+    H --> I["9. RCM Payload 数据覆盖栈区"]
+    I --> J{"10. 栈上返回指针被覆盖?"}
+    J -->|否| K["11. 可能崩溃 但未获得控制权"]
+    J -->|是| L["12. 返回指针指向攻击者代码 函数返回跳转 Payload"]
+    L --> M["13. 获得 RCM 权限 加载任意代码到 CCPLEX"]
 
     classDef critical fill:#ffe6e6,stroke:#ff4d4d;
     class I,L critical;
-  </div>
-</details>
-
+```
 
 聪明的你一定想到了，这就是**溢出类漏洞**。
 > 溢出类漏洞
