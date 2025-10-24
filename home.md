@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-24T11:49:20.953Z
+date: 2025-10-24T12:03:59.700Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -26,7 +26,7 @@ dateCreated: 2025-08-20T15:05:03.120Z
 木炉星以及其他子项目**不与星际拓荒官方有关**。
 {.is-info}
 
-> 已更换到新域名 https://nswiki.cn ，请记住! （可能还有一些BUG，请通过评论等方式反馈）
+> 维基百科站已更换到新域名 https://nswiki.cn ，请记住! （可能还有一些BUG，请通过评论等方式反馈）
 {.is-info}
 
 1. [木炉星上のNS Wiki](https://nswiki.cn) （本项目）
