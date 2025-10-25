@@ -2,13 +2,13 @@
 title: 隐私协议
 description: 主要收集的信息以及目的
 published: true
-date: 2025-10-25T23:28:43.933Z
+date: 2025-10-25T23:31:57.592Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-10-06T05:11:24.614Z
 ---
 
-> 为了减少收集你的数据，我们尽可能的使用Github Oauth2登陆方式。这样可以不收集你的账户和密码，仅需要收集你的邮箱和IP。
+> 为了减少收集你的数据，我们尽可能的使用Github Oauth2登陆方式。这样可以不收集你的账户和密码，仅需要收集你的邮箱。
 {.is-info}
 
 ## NS Wiki（本站）
