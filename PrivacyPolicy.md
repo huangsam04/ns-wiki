@@ -2,7 +2,7 @@
 title: 隐私协议
 description: Privacy Policy
 published: true
-date: 2025-10-25T04:56:52.925Z
+date: 2025-10-25T05:57:07.410Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-06T05:11:24.614Z
@@ -36,10 +36,14 @@ dateCreated: 2025-10-06T05:11:24.614Z
 
 ## 头像站
 **https://gravatar.awa.cool/**
+| 收集的数据 | 收集目的 |
+| ----------- | --------------------- |
+| IP          | 进行基础访问记录与安全防护。 |
+
 非常的曲线救国。
 ```mermaid
 graph TD
-    A["用户访问 /avatar/<digest>"] --> B["检查缓存是否存在"]
+    A["请求 /avatar/<digest>"] --> B["检查缓存是否存在"]
 
     B -->|"命中"| C["读取缓存的用户数据"]
     C --> D{"是否有缓存的 GitHub 头像？"}
