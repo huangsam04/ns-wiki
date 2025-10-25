@@ -1,14 +1,12 @@
 ---
 title: 隐私协议
-description: Privacy Policy
+description: 主要收集的信息以及目的
 published: true
-date: 2025-10-25T13:15:45.741Z
+date: 2025-10-25T13:16:15.994Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-10-06T05:11:24.614Z
 ---
-
-# 主要收集的信息以及目的
 
 > 为了减少收集你的数据，我们尽可能的使用Github Oauth2登陆方式。这样可以不收集你的账户和密码，仅需要收集你的邮箱和IP。
 {.is-info}
