@@ -2,7 +2,7 @@
 title: 隐私协议
 description: Privacy Policy
 published: true
-date: 2025-10-25T04:44:34.720Z
+date: 2025-10-25T04:56:52.925Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-06T05:11:24.614Z
@@ -20,13 +20,13 @@ dateCreated: 2025-10-06T05:11:24.614Z
 | 邮箱    | 作为身份标识符，鉴权用。 |
 | IP地址  | 防止滥用，分析网站数据。 |
 
-## 木炉星下载站
+## 下载站
 **https://dl.awa.cool/** **https://download.nswiki.cn/**
 | 收集的数据 | 收集目的 |
 | ----------- | --------------------- |
 | IP          | 进行基础访问记录与安全防护。 |
 
-## 木炉星评论站
+## 评论站
 **https://artalk.awa.cool/**
 | 收集的数据 | 收集目的 |
 | ----------- | ---------- |
@@ -34,7 +34,7 @@ dateCreated: 2025-10-06T05:11:24.614Z
 | IP地址       | 防止滥用。 |
 | User-Agent  | 用于评论显示设备类型。 |
 
-## 头像站（需要登录评论站才能用）
+## 头像站
 **https://gravatar.awa.cool/**
 非常的曲线救国。
 ```mermaid
