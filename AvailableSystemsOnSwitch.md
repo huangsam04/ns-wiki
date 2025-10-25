@@ -2,7 +2,7 @@
 title: Switch上能运行的系统
 description: 本文告诉你Switch上常见的系统种类和名字。
 published: true
-date: 2025-10-06T06:47:20.933Z
+date: 2025-10-25T01:35:53.027Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-04T06:58:06.983Z
@@ -58,13 +58,13 @@ dateCreated: 2025-10-04T06:58:06.983Z
 原理与上述系统一致，不过加载了极限超频组件，可以用来超更高的频率。如果贸然调整极限超频组件数据，甚至有可能损伤Switch。
 
 ## SwitchRoot系统
-[SwitchRoot](https://switchroot.org/)是一个组织，他们移植了几个系统到Switch上面。
+[SwitchRoot](https://switchroot.org/) 是一个组织，他们移植了几个系统到Switch上面。
 
 ### Android系列
-分为8.1，10，11，14，15这几款安卓。但是由于调度不好以及很多使用缺陷，目前刷入安卓的还是较少。
+支持8.1，10，11，14，15这几款安卓。但是由于调度不好、受限于内存卡速度上线以及很多使用缺陷，目前刷入安卓的还是较少。
 
 ### Linux系列
-分为Ubuntu，Fedora和Lakka。
+支持Ubuntu，Fedora和Lakka这三个发行版移植。
 
 > 参考文献： [Switchroot Wiki](https://wiki.switchroot.org/wiki/)。
 {.is-info}
