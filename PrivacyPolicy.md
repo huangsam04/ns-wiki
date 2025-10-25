@@ -2,7 +2,7 @@
 title: 隐私协议
 description: Privacy Policy
 published: true
-date: 2025-10-25T04:34:00.287Z
+date: 2025-10-25T04:34:55.346Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-06T05:11:24.614Z
@@ -36,7 +36,8 @@ dateCreated: 2025-10-06T05:11:24.614Z
 
 ## 头像站（需要登录评论站才能用）
 **https://gravatar.awa.cool/**
-```Mermaid
+非常的曲线救国。
+```mermaid
 graph TD
     A["用户访问 /avatar/<digest>"] --> B["检查 user_cache 是否存在该 digest"]
 
