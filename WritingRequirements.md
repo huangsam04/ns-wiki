@@ -2,7 +2,7 @@
 title: 书写说明
 description: WritingRequirements
 published: true
-date: 2025-10-07T14:01:11.118Z
+date: 2025-10-25T07:54:18.358Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-21T15:07:21.834Z
@@ -50,18 +50,7 @@ dateCreated: 2025-08-21T15:07:21.834Z
 - /书写要求 是本页面的素材文件夹。
 - /星际拓荒 夹带私货板块的页面的素材文件夹。
 目前没有创建新文件夹的计划，也许以后会创建一个进阶内容的文件夹吧。
-```
- # 文件名错了可以在线修改。如果文件夹名错误必须要进入数据库修改，具体步骤如下：
-psql -U wikijs -d wikijs
-\c wikijs
-\dt
-\dn 
-SELECT * FROM public."assetFolders";
- # delete one folder（修改id）
-DELETE FROM public."assetFolders" WHERE id = 1;
- # delete folders（修改id）
-DELETE FROM public."assetFolders" WHERE id IN (1,3,5,6);
-```
+
 记得修改图片的大小，在图片链接处加一个空格，再写上你想放的比例x。一般使用66%。做法如下：
 ```
 ![上传素材.png](/书写要求/上传素材.png =66%x)
