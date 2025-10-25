@@ -2,7 +2,7 @@
 title: 隐私协议
 description: Privacy Policy
 published: true
-date: 2025-10-25T04:34:55.346Z
+date: 2025-10-25T04:35:08.162Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-06T05:11:24.614Z
@@ -49,7 +49,7 @@ graph TD
     F -->|"请求成功"| G["保存 github_id 和 avatar_url 到缓存"]
     F -->|"请求失败"| H["使用默认头像链接"]
 
-    B -->|"未命中"| I["从数据库 public.users 查找用户"]
+    B -->|"未命中"| I["从Artalk数据库 public.users 查找用户"]
     I -->|"找到用户"| J["更新缓存 user_cache"]
     I -->|"未找到用户"| H
 
