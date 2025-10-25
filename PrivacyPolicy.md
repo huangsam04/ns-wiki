@@ -2,7 +2,7 @@
 title: 隐私协议
 description: Privacy Policy
 published: true
-date: 2025-10-25T04:35:08.162Z
+date: 2025-10-25T04:44:34.720Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-06T05:11:24.614Z
@@ -39,26 +39,26 @@ dateCreated: 2025-10-06T05:11:24.614Z
 非常的曲线救国。
 ```mermaid
 graph TD
-    A["用户访问 /avatar/<digest>"] --> B["检查 user_cache 是否存在该 digest"]
+    A["用户访问 /avatar/<digest>"] --> B["检查缓存是否存在"]
 
     B -->|"命中"| C["读取缓存的用户数据"]
     C --> D{"是否有缓存的 GitHub 头像？"}
-    D -->|"有缓存"| E["拼接头像链接并返回"]
-    D -->|"无缓存"| F["提取 GitHub 用户名并请求 GitHub API"]
+    D -->|"有缓存"| E["使用 GitHub 头像链接"]
+    D -->|"无缓存"| F["检查用户 link 是否为 GitHub 链接"]
 
-    F -->|"请求成功"| G["保存 github_id 和 avatar_url 到缓存"]
-    F -->|"请求失败"| H["使用默认头像链接"]
+    F -->|"是 GitHub 链接"| G["提取 GitHub 用户名并请求 GitHub API"]
+    F -->|"不是 GitHub 链接"| H["使用默认头像链接"]
 
-    B -->|"未命中"| I["从Artalk数据库 public.users 查找用户"]
-    I -->|"找到用户"| J["更新缓存 user_cache"]
-    I -->|"未找到用户"| H
+    G -->|"请求成功"| I["保存头像链接到缓存"]
+    G -->|"请求失败"| H
 
-    E --> K["返回 301 重定向到头像 URL"]
-    G --> K
-    H --> K
+    I --> E
+    H --> L["准备跳转链接"]
 
-    subgraph 后台任务
-        L["每 10 分钟执行定时刷新"] --> M["重新加载数据库用户列表"]
-    end
+    B -->|"未命中"| J["从 Artalk 数据库查找用户"]
+    J -->|"找到用户"| K["将用户信息写入缓存"]
+    J -->|"未找到用户"| H
 
+    K --> D
+    E --> L["返回跳转到头像 URL"]
 ```
