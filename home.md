@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-25T07:57:03.550Z
+date: 2025-10-25T12:12:37.395Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -28,8 +28,9 @@ dateCreated: 2025-08-20T15:05:03.120Z
 {.is-info}
 
 > **公告**
-维基百科站已更换到新域名 https://nswiki.cn ，请记住! （可能还有一些BUG，请通过评论等方式反馈）。
-若无法注册/登录，请多尝试几次。
+2025/10/24 维基百科站已更换到新域名 https://nswiki.cn ，请记住! （可能还有一些BUG，请通过评论等方式反馈）。
+2025/10/24  若无法注册/登录，请多尝试几次，这是服务器网络环境不好的原因。
+2025/10/25 已经使用自建TurnStile验证代替了Anubis。
 {.is-info}
 
 1. [木炉星上のNS Wiki](https://nswiki.cn) （本项目）
