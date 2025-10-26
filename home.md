@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-26T01:56:29.610Z
+date: 2025-10-26T01:56:43.717Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -17,7 +17,7 @@ dateCreated: 2025-08-20T15:05:03.120Z
   <span id="typewriter-line2" class="subtitle"></span>
 </p>
 
-本Wiki的目的是 **一站式**解决NS玩机中的问题。
+
 
 
 
