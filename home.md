@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-26T01:59:59.590Z
+date: 2025-10-26T02:01:33.741Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -22,6 +22,9 @@ dateCreated: 2025-08-20T15:05:03.120Z
 
 
 ## 木炉星的项目
+本Wiki的目的是 **一站式**解决NS玩机中的问题。
+当你有任何不会的，可以**点开本页上面的搜索框**，键入你要搜索的内容来查询。
+点击**左侧按钮展开树状图**，点击你想要看的页面，然后开始学习！（移动版点击**左下角按钮**打开侧边栏）
 
 1. [木炉星上のNS Wiki](https://nswiki.cn) （本项目）
 2. [木炉星 下载站](https://dl.awa.cool/)
