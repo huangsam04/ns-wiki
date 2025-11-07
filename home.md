@@ -2,7 +2,7 @@
 title: 主页
 description: Home Page
 published: true
-date: 2025-10-26T02:01:33.741Z
+date: 2025-11-07T14:51:31.289Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
@@ -16,10 +16,6 @@ dateCreated: 2025-08-20T15:05:03.120Z
   <span id="typewriter-line1"></span><span id="cursor">.</span><br>
   <span id="typewriter-line2" class="subtitle"></span>
 </p>
-
-
-
-
 
 ## 木炉星的项目
 本Wiki的目的是 **一站式**解决NS玩机中的问题。
