@@ -2,19 +2,21 @@
 title: 如何安装整合包
 description: How to Install Integration Package
 published: true
-date: 2025-10-25T01:41:53.057Z
+date: 2025-11-07T15:12:33.412Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T13:59:15.909Z
 ---
 
 # 整合包来自于 [葡萄糖酸菜鱼](https://space.bilibili.com/604067016) 公益提供支持
-> 本文配套整合包为 葡萄糖酸菜鱼 提供更新服务，[夸克网盘下载链接](https://pan.quark.cn/s/3c0d28411181)。
+> **关于整合包**
+本文配套整合包为 葡萄糖酸菜鱼 提供更新服务，[夸克网盘下载链接](https://pan.quark.cn/s/3c0d28411181)。
 如果链接失效请通过首页的 [联系我们](/home) 来通知。
 本教程提供了**安装整合包+创建分区格式虚拟系统**的方法。
 {.is-info}
 
-> 使用 Windows自带的分区软件，或者使用DiskGenius这种完善的第三方分区软件，都和Hekate内自带分区软件效果**不同**。
+> **关于分区**
+使用 Windows自带的分区软件，或者使用DiskGenius这种完善的第三方分区软件，都和Hekate内自带分区软件效果**不同**。
 它们不会使用AU对齐，而是使用512B或1MB对齐方法，这将会降低**大约30%写入**和**10%~30%读取**。
 目前支持AU对齐的只有这三个工具：Hekate，Sd Formatter 和 HOS（本文使用前两个工具）。原文请看此 [Github Issue](https://github.com/CTCaer/hekate/issues/1138#event-20092252629)。
 {.is-warning}
