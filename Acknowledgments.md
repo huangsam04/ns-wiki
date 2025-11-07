@@ -2,7 +2,7 @@
 title: 感谢你们的支持
 description: 本篇记录了致谢的对象。
 published: true
-date: 2025-11-07T14:56:56.393Z
+date: 2025-11-07T14:57:14.076Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-28T02:15:42.829Z
@@ -35,7 +35,7 @@ dateCreated: 2025-08-28T02:15:42.829Z
     </tr>
     <tr>
       <td style="padding: 8px;"><a href="https://space.bilibili.com/3493095037471660" target="_blank">Hahappify</a></td>
-      <td style="padding: 8px;">￥39.54</td>
+      <td style="padding: 8px;">￥89.54</td>
       <td style="padding: 8px;">2025-09-30</td>
       <td style="padding: 8px;">huangsam04的恩情还不完\😭/\😭/\😭/</td>
     </tr>
