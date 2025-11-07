@@ -2,30 +2,17 @@
 title: 书写说明
 description: WritingRequirements
 published: true
-date: 2025-10-25T07:54:18.358Z
+date: 2025-11-07T15:07:30.097Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-21T15:07:21.834Z
 ---
 
-# 内容要求
-**第一点**，杜绝：**语言模型生成**。
+# 法律要求
+All resources come from the network, this site does not participate in any dump or hack activities, if there is any violation of your rights, please provide relevant proof and email huangsam04@vip.qq.com, I will promptly delete it.
 
-**第二点**，**无需担心**你写的**质量不佳**或者不小心误操作**导致什么严重后果**。
-所有人都是从一点都不懂开始的。我们对于新入坑的人应当有开放宽容的态度。
-对于每一次更改，我们的Wiki系统都会记录下来，可以简单的回到过去的版本。
-当你开始写下内容，不管你是加了一点点细节，还是对某个没有涉及到的部分进行粗略的探索。你的内容都有可能抛砖引玉，帮助我们实现更好的中文互联网社区。
-
-**第三点**，在我们的社区中（包括本站和相关的QQ群中）我们**严禁**：
-- **傲慢轻蔑**回复。
-- **阴阳怪气**回复。
-- **攻击谩骂**回复。
-
-**第四点**，使用别人的成果应当在文末标注出来。
-
-引用知了大佬的一句话：
-
-> 我们**随时欢迎**你在有疑问的时候与我们进行沟通，请不要拘谨。避免错误沟通方式带来的误解加深，良好的社区氛围需要你我共同维护。
+本站所有资源来源于网络，本站未参与任何dump或hack活动。
+若有侵犯您的权益请提供相关证明致邮 huangsam04@vip.qq.com，我将及时撤下该内容。
 
 # 结构规范
 ## 创建Wiki页面 需要遵循的标准
@@ -55,3 +42,8 @@ dateCreated: 2025-08-21T15:07:21.834Z
 ```
 ![上传素材.png](/书写要求/上传素材.png =66%x)
 ```
+
+---
+
+> 参考文献： [时鹏亮的Blog](https://shipengliang.com/download/switch/switch-%e5%a1%9e%e5%b0%94%e8%be%be%e4%bc%a0%e8%af%b4%ef%bc%9a%e7%8e%8b%e5%9b%bd%e4%b9%8b%e6%b3%aa-%e6%b8%b8%e6%88%8f%e4%b8%8b%e8%bd%bd-nocache.html)。
+{.is-info}
