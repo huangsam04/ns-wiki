@@ -2,7 +2,7 @@
 title: 书写说明
 description: WritingRequirements
 published: true
-date: 2025-11-07T15:07:30.097Z
+date: 2025-11-07T15:08:09.317Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-21T15:07:21.834Z
@@ -11,7 +11,7 @@ dateCreated: 2025-08-21T15:07:21.834Z
 # 法律要求
 All resources come from the network, this site does not participate in any dump or hack activities, if there is any violation of your rights, please provide relevant proof and email huangsam04@vip.qq.com, I will promptly delete it.
 
-本站所有资源来源于网络，本站未参与任何dump或hack活动。
+本站所有资源来源于网络，本站未参与任何Dump或破解活动。
 若有侵犯您的权益请提供相关证明致邮 huangsam04@vip.qq.com，我将及时撤下该内容。
 
 # 结构规范
@@ -42,8 +42,6 @@ All resources come from the network, this site does not participate in any dump 
 ```
 ![上传素材.png](/书写要求/上传素材.png =66%x)
 ```
-
----
 
 > 参考文献： [时鹏亮的Blog](https://shipengliang.com/download/switch/switch-%e5%a1%9e%e5%b0%94%e8%be%be%e4%bc%a0%e8%af%b4%ef%bc%9a%e7%8e%8b%e5%9b%bd%e4%b9%8b%e6%b3%aa-%e6%b8%b8%e6%88%8f%e4%b8%8b%e8%bd%bd-nocache.html)。
 {.is-info}
