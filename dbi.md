@@ -2,7 +2,7 @@
 title: 安装/提取游戏 DBI
 description: Duckbill Installer 是一款实用的工具集，主要用于安装和提取游戏。
 published: true
-date: 2025-10-07T14:09:25.403Z
+date: 2025-11-08T16:42:30.447Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-01T13:53:34.747Z
@@ -21,7 +21,7 @@ DBI是一个非常实用的工具集，其主要功能是安装和提取游戏�
 
 ## 下载并打开DBI
 时鹏亮 大佬对DBI进行了翻译，这是其[页面](https://shipengliang.com/games/%e7%ab%af%e5%8d%88%e8%8a%82%e5%84%bf%e7%ab%a5%e8%8a%82%e7%a4%bc%e7%89%a9%ef%bc%9a%e5%85%a8%e7%90%83%e9%a6%96%e5%8f%91-dbi-%e4%b8%ad%e6%96%87%e7%89%88.html) 。
-大部分整合包都附带了DBI（的时鹏亮翻译版），例如 葡萄糖酸菜鱼 的整合包，[夸克网盘下载链接](https://pan.quark.cn/s/3c0d28411181)。
+大部分整合包都附带了DBI（的时鹏亮翻译版），例如 葡萄糖酸菜鱼 的整合包。
 
 将下载好的.nro 放到 tf卡switch文件夹 里面，然后从HBmenu或者Sphaira 启动它。（高权限的DBI是黑底色，底权限小程序模式是蓝底色）
 ![dbi主页.jpg](/homebrew/dbi/dbi主页.jpg =66%x)
