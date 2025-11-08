@@ -2,7 +2,7 @@
 title: 帧率解锁 Fpslocker
 description: 
 published: true
-date: 2025-10-03T09:10:10.572Z
+date: 2025-11-08T16:43:23.055Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-28T13:41:31.418Z
@@ -40,10 +40,10 @@ dateCreated: 2025-09-28T13:41:31.418Z
   
 ## 1.补丁文件
 > 确认你的整合包已经安装了最新版的 Fpslocker 和 SaltyNX。
-> 不懂的话问你的整合包作者，[葡萄糖酸菜鱼]的整合包已经预置。
+> 不懂的话问你的整合包作者，葡萄糖酸菜鱼 的整合包已经预置。
 {.is-warning}
 
-0) 如果你是用的是[葡萄糖酸菜鱼]的整合包，Fpslocker已经配置了国内源，可以跳过这步，转换补丁时直接点下载。
+0) 如果你是用的是 葡萄糖酸菜鱼 的整合包，Fpslocker已经配置了国内源，可以跳过这步，转换补丁时直接点下载。
 1) 下载补丁文件，从[Github原项目](https://github.com/masagrator/FPSLocker-Warehouse/archive/refs/heads/v4.zip) 或 [国内同步源](https://dl.awa.cool/scy/FPSLocker-Warehouse/fpslocker.zip) 。
 2) 下载完成后解压，将“atmosphere”和“SaltySD”两个文件夹复制到根目录。
 
