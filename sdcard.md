@@ -1,8 +1,8 @@
 ---
 title: SD 卡指北
-description: SD Card Guide
+description: 本教程简单的告诉你如何选购SD卡。
 published: true
-date: 2025-10-05T02:12:49.320Z
+date: 2025-11-20T09:56:00.605Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T09:25:21.587Z
