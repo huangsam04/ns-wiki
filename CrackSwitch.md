@@ -1,8 +1,8 @@
 ---
 title: Switch破解历史&原理
-description: Crack Switch
+description: 本文简单的讲述了Switch破解历史和原理，其中不涉及可以直接操作的技术原理，或者未被公布的安全漏洞。若有侵犯您的权益请提供相关证明致邮 huangsam04@vip.qq.com，我将及时撤下该内容。
 published: true
-date: 2025-10-24T12:40:04.294Z
+date: 2025-11-20T09:52:47.706Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
