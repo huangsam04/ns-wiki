@@ -1,17 +1,14 @@
 ---
 title: 常见词汇介绍
-description: CommonTerms
+description: 本篇主要是为了介绍一些NS学习版的常见术语。 由于NS破解本就无官方，中英文互译更是产生了一堆翻译版本，因此主要是提供常见的翻译。
 published: true
-date: 2025-10-06T12:43:36.015Z
+date: 2025-11-20T09:27:13.873Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T05:36:11.237Z
 ---
 
 # 学习常见的术语
-> 本篇主要是为了介绍一些NS学习版的常见术语。
-由于NS破解本就无官方，中英文互译更是产生了一堆翻译版本，因此本篇主要是提供常见的翻译。
-{.is-info}
 
 ## 前端，面板，Title
 原名Title。
