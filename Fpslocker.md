@@ -2,7 +2,7 @@
 title: 帧率解锁 Fpslocker
 description: Fpslocker是一个解锁游戏帧数的程序，支持大部分游戏。
 published: true
-date: 2025-11-20T09:41:02.903Z
+date: 2025-11-20T09:43:11.063Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-28T13:41:31.418Z
@@ -23,18 +23,18 @@ dateCreated: 2025-09-28T13:41:31.418Z
 ![search.png](/homebrew/fpslocker/search.png)
 
 3) 查看结果
-	a. 如果查询不到，说明不支持
+	1. 如果查询不到，说明不支持
 	你可以向作者提出 [适配申请](https://github.com/masagrator/FPSLocker-Warehouse/issues/895) ，请注意格式要求。
-  <br>
-	b. 如果搜索到的ID右侧一栏有✅，说明Fpslocker支持对应版本，下载对应版本游戏即可解锁畅玩。
+
+	2. 如果搜索到的ID右侧一栏有✅，说明Fpslocker支持对应版本，下载对应版本游戏即可解锁畅玩。
 	![支持.png](/homebrew/fpslocker/支持.png =50%x)
 	▸ 上图说明支持该游戏的1.0.3版本。
-  <br>
-	c. 右侧有❌，说明Fpslocker不支持该游戏
+
+	3. 右侧有❌，说明Fpslocker不支持该游戏
 	![不支持.png](/homebrew/fpslocker/不支持.png =50%x)
   ▸ 经典问题之，宝可梦全系列都不支持。
-  <br>
-	d. 右侧有◯，说明不需要补丁，可以直接解锁帧数。
+
+	4. 右侧有◯，说明不需要补丁，可以直接解锁帧数。
   ![不需要.png](/homebrew/fpslocker/不需要.png =50%x)
   ▸ 旷世奇作《小猪佩奇历险记:世界之旅》就不需要补丁。
   
