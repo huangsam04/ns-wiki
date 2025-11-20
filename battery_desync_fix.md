@@ -2,7 +2,7 @@
 title: 电池校准插件
 description: battery desync fix
 published: true
-date: 2025-08-29T03:23:05.792Z
+date: 2025-11-20T09:50:42.263Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-23T14:57:18.154Z
