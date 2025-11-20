@@ -1,8 +1,8 @@
 ---
 title: 书写说明
-description: WritingRequirements
+description: 本文告诉你在本站编辑内容时要遵循的硬性要求。
 published: true
-date: 2025-11-20T09:28:05.425Z
+date: 2025-11-20T10:01:10.911Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-21T15:07:21.834Z
