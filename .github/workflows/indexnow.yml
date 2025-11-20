@@ -67,7 +67,7 @@ jobs:
               host: $host,
               key: $key,
               keyLocation: ("https://" + $host + "/" + $key + ".txt"),
-              urlList: ($urls | split("\n"))
+              urlList: ($urls | split("\n") | map(select(length > 0)))
             }')
 
           echo "$JSON_PAYLOAD" > indexnow.json
