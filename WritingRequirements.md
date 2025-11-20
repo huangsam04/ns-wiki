@@ -2,7 +2,7 @@
 title: 书写说明
 description: WritingRequirements
 published: true
-date: 2025-11-07T15:08:09.317Z
+date: 2025-11-20T09:28:05.425Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-21T15:07:21.834Z
@@ -27,7 +27,7 @@ All resources come from the network, this site does not participate in any dump 
 ![页面属性.png](/书写要求/页面属性.png =66%x)
 编辑页面属性的时候：
 - 标题**填写中文标题**，或者如果只有英文的话就写英文
-- 简短说明任意，我是写路径名
+- 简短说明应当填写**内容的介绍**，这对于搜索引擎索引**很重要**
 
 ## 上传素材 需要遵循的标准
 ![上传素材.png](/书写要求/上传素材.png =66%x)
