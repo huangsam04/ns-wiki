@@ -2,7 +2,7 @@
 title: 虚拟局域网联机工具Lanplay
 description: 本教程教你使用lanplay远程游玩局域网联机游戏。
 published: true
-date: 2025-11-20T09:46:30.431Z
+date: 2025-11-20T09:49:54.915Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T15:49:35.972Z
@@ -38,6 +38,8 @@ lanplay.cpalm.org:11451
 ```
 配置完成后，点击服务器右侧播放按钮启动。
 ![启动服务器.png](/software/lanplay/启动服务器.png =66%x)
+
+## Switch端准备
 ### 3.配置switch网络。
 1)将switch连接到与电脑同一网络的WiFi。
 2)点击已连接的网络，选择“更改设置”。
@@ -54,4 +56,5 @@ lanplay.cpalm.org:11451
 > 部分游戏的局域网联机模式是隐藏的，如马车8需要在主页按**L+R+左摇杆**。
 {.is-info}
 
-发现了野生的[参考文档](https://www.cnblogs.com/backuper/p/18312432)。
+> 参考文献： [Carl Notes](https://www.cnblogs.com/backuper/p/18312432)。
+{.is-info}
