@@ -1,8 +1,8 @@
 ---
 title: Switch超频
-description: Overclocking
+description: 本教程告诉你如何超频Switch。
 published: true
-date: 2025-09-12T12:13:36.151Z
+date: 2025-11-20T09:54:51.486Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-07T14:38:50.747Z
