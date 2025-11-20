@@ -2,14 +2,15 @@
 title: 疑难解答
 description: 如果你在使用中发现了一些问题，可以来这里看看
 published: true
-date: 2025-11-20T09:33:33.971Z
+date: 2025-11-20T09:34:03.328Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T10:51:15.511Z
 ---
 
-# 如果你在使用中发现了一些问题，可以来这里看看
-> 适配 [葡萄糖酸菜鱼](https://space.bilibili.com/604067016) 的整合包。
+# FAQ
+> **提示**
+部分问题 适配 [葡萄糖酸菜鱼](https://space.bilibili.com/604067016) 的整合包。
 {.is-info}
 
 ## 如何在这里查询问题？
