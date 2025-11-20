@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /a/
-
-Sitemap: https://nswiki.cn/sitemap.xml
