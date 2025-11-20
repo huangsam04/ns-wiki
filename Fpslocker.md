@@ -2,7 +2,7 @@
 title: 帧率解锁 Fpslocker
 description: Fpslocker是一个解锁游戏帧数的程序，支持大部分游戏。
 published: true
-date: 2025-11-20T09:40:56.250Z
+date: 2025-11-20T09:41:02.903Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-28T13:41:31.418Z
@@ -24,7 +24,7 @@ dateCreated: 2025-09-28T13:41:31.418Z
 
 3) 查看结果
 	a. 如果查询不到，说明不支持
-	你可以向作者提出[适配申请](https://github.com/masagrator/FPSLocker-Warehouse/issues/895)，请注意格式要求。
+	你可以向作者提出 [适配申请](https://github.com/masagrator/FPSLocker-Warehouse/issues/895) ，请注意格式要求。
   <br>
 	b. 如果搜索到的ID右侧一栏有✅，说明Fpslocker支持对应版本，下载对应版本游戏即可解锁畅玩。
 	![支持.png](/homebrew/fpslocker/支持.png =50%x)
