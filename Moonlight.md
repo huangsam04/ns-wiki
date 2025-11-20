@@ -1,8 +1,8 @@
 ---
 title: 串流游戏
-description: Moonlight
+description: 本教程教你如何使用 Moonlight 来在Switch上串流电脑的游戏。
 published: true
-date: 2025-08-22T14:32:30.852Z
+date: 2025-11-20T09:50:29.429Z
 tags: 基础知识, moonlight, sunshine
 editor: markdown
 dateCreated: 2025-08-21T15:12:50.209Z
