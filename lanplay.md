@@ -1,8 +1,8 @@
 ---
-title: 如何使用lanplay
-description: 
+title: 虚拟局域网联机工具Lanplay
+description: 本教程教你使用lanplay远程游玩局域网联机游戏。
 published: true
-date: 2025-08-31T11:39:38.951Z
+date: 2025-11-20T09:46:30.431Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T15:49:35.972Z
