@@ -1,0 +1,85 @@
+name: Submit URLs to IndexNow
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🔍 List changed files
+        run: |
+          echo "==== Changed files ===="
+          git diff --name-only ${{ github.event.before }} ${{ github.sha }} || true
+
+      - name: 🔧 Build URL list for IndexNow
+        id: changes
+        run: |
+          echo "==== Processing files for IndexNow ===="
+          urls=""
+
+          for file in $(git diff --name-only ${{ github.event.before }} ${{ github.sha }}); do
+            echo "Checking file: $file"
+
+            # Only .md / .html
+            if [[ "$file" == *.md || "$file" == *.html ]]; then
+              echo "  -> Matched: $file"
+
+              clean="${file%.md}"
+              clean="${clean%.html}"
+
+              # Build final URL
+              url="${{ secrets.SITE_URL }}/zh/${clean}"
+
+              echo "  -> Final URL = $url"
+
+              urls="${urls}\n${url}"
+            fi
+          done
+
+          echo "==== Final URL List ===="
+          echo -e "$urls"
+
+          echo "CHANGED_URLS<<EOF" >> $GITHUB_OUTPUT
+          echo -e "$urls" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: 📤 Submit URLs to IndexNow
+        if: steps.changes.outputs.CHANGED_URLS != ''
+        run: |
+          echo "==== Preparing JSON for IndexNow ===="
+          host="$(echo ${{ secrets.SITE_URL }} | sed 's|https\?://||; s|/||')"
+          echo "Host = $host"
+          echo "Key  = ${{ secrets.INDEXNOW_KEY }}"
+          echo "URLs = ${{ steps.changes.outputs.CHANGED_URLS }}"
+
+          JSON_PAYLOAD=$(jq -n \
+            --arg host "$host" \
+            --arg key "${{ secrets.INDEXNOW_KEY }}" \
+            --arg urls "${{ steps.changes.outputs.CHANGED_URLS }}" \
+            '{
+              host: $host,
+              key: $key,
+              keyLocation: ("https://" + $host + "/" + $key + ".txt"),
+              urlList: ($urls | split("\n") | map(select(. != "")))
+            }')
+
+          echo "==== JSON Payload Sent to IndexNow ===="
+          echo "$JSON_PAYLOAD"
+
+          echo "==== Sending request to IndexNow... ===="
+          curl -i -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            --data "$JSON_PAYLOAD"
+
+      - name: ℹ️ No relevant changes detected
+        if: steps.changes.outputs.CHANGED_URLS == ''
+        run: |
+          echo "No .md or .html changes found. Nothing to submit."
