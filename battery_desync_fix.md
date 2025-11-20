@@ -1,8 +1,8 @@
 ---
 title: 电池校准插件
-description: battery desync fix
+description: 本教程教你如何进行电池容量校准，这主要在改电池后需要进行。
 published: true
-date: 2025-11-20T09:50:42.263Z
+date: 2025-11-20T09:51:04.528Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-23T14:57:18.154Z
