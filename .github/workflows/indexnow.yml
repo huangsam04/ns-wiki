@@ -37,7 +37,7 @@ jobs:
               base="${file%.md}"
               base="${base%.html}"
 
-              url="${{ secrets.SITE_URL }}/zh/${base}"
+              url="${{ secrets.SITE_URL }}zh/${base}"
 
               echo "  -> Final URL = $url"
 
