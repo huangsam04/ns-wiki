@@ -1,8 +1,8 @@
 ---
 title: 为何建站
-description: Why am I doing this?
+description: 前言：我为什么要建这个站
 published: true
-date: 2025-10-25T14:26:37.553Z
+date: 2025-11-20T10:00:37.172Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-29T10:05:45.943Z
