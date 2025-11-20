@@ -1,8 +1,8 @@
 ---
 title: 帧率解锁 Fpslocker
-description: 
+description: Fpslocker是一个解锁游戏帧数的程序，支持大部分游戏。
 published: true
-date: 2025-11-08T16:43:23.055Z
+date: 2025-11-20T09:40:03.845Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-28T13:41:31.418Z
