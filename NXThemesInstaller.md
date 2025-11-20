@@ -2,7 +2,7 @@
 title: 管理主题&主题补丁
 description: 本文将会告诉你怎么安装主题，以及卸载他们。
 published: true
-date: 2025-10-03T17:08:31.167Z
+date: 2025-11-20T09:15:02.879Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-29T15:14:28.887Z
@@ -10,7 +10,8 @@ dateCreated: 2025-08-29T15:14:28.887Z
 
 # NXThemesInstaller
 
-> 更新系统前一定要删掉主题！
+> **警告**
+更新系统前一定要删掉主题！
 {.is-danger}
 
 > 报错无法进入系统参考[FAQ](/FAQ)
