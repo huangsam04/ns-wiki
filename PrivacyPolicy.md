@@ -1,8 +1,8 @@
 ---
 title: 隐私协议
-description: 主要收集的信息以及目的
+description: 本文告诉你 本站主要收集的信息以及目的 。
 published: true
-date: 2025-10-25T23:31:57.592Z
+date: 2025-11-20T10:02:14.096Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-10-06T05:11:24.614Z
