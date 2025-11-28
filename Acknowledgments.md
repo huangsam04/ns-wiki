@@ -2,19 +2,19 @@
 title: 感谢你们的支持
 description: 本篇记录了致谢的对象。
 published: true
-date: 2025-11-28T13:35:59.891Z
+date: 2025-11-28T13:36:57.463Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-28T02:15:42.829Z
 ---
 
-# 感谢你们的支持
-## 感谢开源项目！
+# 感谢支持
+## 开源项目
 本站使用[Wiki.js](https://docs.requarks.io/) 软件搭建，站点主题使用[wikijs-citizen-styles](https://github.com/AurLemon/wikijs-citizen-styles) ，折叠树状图使用[wikijs-customization](https://github.com/madodig/wikijs-customization/) （改），网站Sitemap使用[wikijs-seo-tools](https://github.com/zivenyang/wikijs-seo-tools)，[最近修改](/RecentChanges)使用[zivenyang的脚本](https://github.com/zivenyang/wikijs-seo-tools/issues/2) （改） 。
 
 评论站使用[Artalk](https://artalk.js.org/) 软件搭建。
 
-## 关于支持我们
+## 支持我们
 本维基项目完全是出于**爱好**搭建的，**不再**收取捐赠，感谢你有支持我们的心！
 
 我们**不会**通过本站**盈利**。
