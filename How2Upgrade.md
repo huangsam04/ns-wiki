@@ -2,7 +2,7 @@
 title: 如何更新大气层&固件
 description: 本教程提供了 更新整合包 和 更新虚拟系统 的方法。
 published: true
-date: 2025-11-28T13:46:29.903Z
+date: 2025-11-28T13:48:49.729Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T14:32:27.410Z
@@ -29,7 +29,7 @@ dateCreated: 2025-08-27T14:32:27.410Z
 ![unzip_firmware.png](/base/how2upgrade/unzip_firmware.png =66%x)
 
 把这一个文件夹移动至TF卡根目录（不是把里面的文件放到根目录）。
-![cp1.png](/base/how2upgrade/cp1.png =50%x)![cp2.png](/base/how2upgrade/cp2.png =50%x)
+![cp1.png](/base/how2upgrade/cp.png =66%x)
 
 进入虚拟系统，打开Daybreak，选择 `安装`。
 ![daybreak安装.jpg](/base/how2upgrade/daybreak安装.jpg =66%x)
