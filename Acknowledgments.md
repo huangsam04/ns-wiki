@@ -2,7 +2,7 @@
 title: 感谢你们的支持
 description: 本篇记录了致谢的对象。
 published: true
-date: 2025-11-28T13:16:14.829Z
+date: 2025-11-28T13:25:48.331Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-28T02:15:42.829Z
@@ -24,8 +24,8 @@ dateCreated: 2025-08-28T02:15:42.829Z
   <thead style="background: #f2f2f2;">
     <tr>
       <th style="padding: 8px;">赞助者</th>
-      <th style="padding: 8px;">金额</th>
-      <th style="padding: 8px;">日期</th>
+      <th style="padding: 8px;">捐赠金额</th>
+      <th style="padding: 8px;">最后捐赠日期</th>
       <th style="padding: 8px;">留言</th>
     </tr>
   </thead>
@@ -40,7 +40,13 @@ dateCreated: 2025-08-28T02:15:42.829Z
     <tr>
       <td style="padding: 8px;"><a href="https://space.bilibili.com/3493095037471660" target="_blank">Hahappify</a></td>
       <td style="padding: 8px;">￥129.54</td>
-      <td style="padding: 8px;">2025-09-30</td>
+      <td style="padding: 8px;">2025-11-28</td>
+      <td style="padding: 8px;">huangsam04的恩情还不完\😭/\😭/\😭/</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"><a href="https://github.com/nangongjing1" target="_blank">南宫镜</a></td>
+      <td style="padding: 8px;">￥50</td>
+      <td style="padding: 8px;">2025-11-28</td>
       <td style="padding: 8px;">huangsam04的恩情还不完\😭/\😭/\😭/</td>
     </tr>
 
