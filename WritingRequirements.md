@@ -2,20 +2,23 @@
 title: 书写说明
 description: 本文告诉你在本站编辑内容时要遵循的硬性要求。
 published: true
-date: 2025-11-20T10:01:10.911Z
+date: 2025-11-28T13:29:22.635Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-21T15:07:21.834Z
 ---
 
-# 法律要求
+## 权限要求
+每一个新注册的 维基百科 账户都是 **初始成员** 的权限，请通过任意方式 联系管理员 获取 **正式成员** 权限以编辑文稿。
+
+## 法律要求
 All resources come from the network, this site does not participate in any dump or hack activities, if there is any violation of your rights, please provide relevant proof and email huangsam04@vip.qq.com, I will promptly delete it.
 
 本站所有资源来源于网络，本站未参与任何Dump或破解活动。
 若有侵犯您的权益请提供相关证明致邮 huangsam04@vip.qq.com，我将及时撤下该内容。
 
-# 结构规范
-## 创建Wiki页面 需要遵循的标准
+## 结构规范
+### 创建Wiki页面 需要遵循的标准
 ![创建页面.png](/书写要求/创建页面.png =66%x)
 创建新页面的时候:
 - 地址栏**必须无空格**：Wiki.js不支持带空格的路径，否则会提示非法字符
@@ -23,13 +26,13 @@ All resources come from the network, this site does not participate in any dump 
 - **英文**路径：在分享Wiki网址的时候，中文会被编码成UTF-8，很难看，如下图
 ![utf-8编码.png](/书写要求/utf-8编码.png =66%x)
 
-## 页面属性 需要遵循的标准
+### 页面属性 需要遵循的标准
 ![页面属性.png](/书写要求/页面属性.png =66%x)
 编辑页面属性的时候：
 - 标题**填写中文标题**，或者如果只有英文的话就写英文
 - 简短说明应当填写**内容的介绍**，这对于搜索引擎索引**很重要**
 
-## 上传素材 需要遵循的标准
+### 上传素材 需要遵循的标准
 ![上传素材.png](/书写要求/上传素材.png =66%x)
 上传素材的时候：
 - /root **不要在这里上传内容**（我想不出来上传内容的必要，请保持数据结构的干净）
