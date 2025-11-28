@@ -2,12 +2,13 @@
 title: Switch上能运行的系统
 description: 本文告诉你Switch1上常见的系统种类和名字。
 published: true
-date: 2025-11-20T13:10:52.854Z
+date: 2025-11-28T14:12:24.314Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-04T06:58:06.983Z
 ---
 
+# 关于各种系统
 ## 正版系统
 机身自带的[**emmc**](https://baike.baidu.com/item/eMMC/117849)（你可以理解为switch中的硬盘）中的系统，Switch新机出场后就有的东西。
 
