@@ -2,7 +2,7 @@
 title: 感谢你们的支持
 description: 本篇记录了致谢的对象。
 published: true
-date: 2025-11-28T13:36:57.463Z
+date: 2025-11-28T14:07:22.334Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-28T02:15:42.829Z
@@ -49,6 +49,12 @@ dateCreated: 2025-08-28T02:15:42.829Z
       <td style="padding: 8px;">￥50</td>
       <td style="padding: 8px;">2025-11-28</td>
       <td style="padding: 8px;">huangsam04的恩情还不完\😭/\😭/\😭/</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"><a href="https://docs.qq.com/doc/DVVFMWXRLQ096RXVG" target="_blank">星落尘降</a></td>
+      <td style="padding: 8px;">￥200</td>
+      <td style="padding: 8px;">2025-11-28</td>
+      <td style="padding: 8px;">看看女装？</td>
     </tr>
 
   </tbody>
