@@ -2,12 +2,13 @@
 title: 如何安装整合包
 description: 本教程提供了 安装整合包 和 创建分区格式虚拟系统 的方法。
 published: true
-date: 2025-11-20T09:33:09.024Z
+date: 2025-11-28T14:12:56.186Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T13:59:15.909Z
 ---
 
+# 安装整合包
 ## 整合包来自于 [葡萄糖酸菜鱼](https://space.bilibili.com/604067016) 免费提供支持
 > **关于整合包**
 本文配套整合包为 葡萄糖酸菜鱼 提供更新服务，[夸克网盘下载链接](https://pan.quark.cn/s/3c0d28411181)。
