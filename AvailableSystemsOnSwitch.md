@@ -2,7 +2,7 @@
 title: Switch上能运行的系统
 description: 本文告诉你Switch1上常见的系统种类和名字。
 published: true
-date: 2025-11-28T14:12:24.314Z
+date: 2025-11-29T14:47:38.642Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-04T06:58:06.983Z
@@ -10,7 +10,7 @@ dateCreated: 2025-10-04T06:58:06.983Z
 
 # 关于各种系统
 ## 正版系统
-机身自带的[**emmc**](https://baike.baidu.com/item/eMMC/117849)（你可以理解为switch中的硬盘）中的系统，Switch新机出场后就有的东西。
+正版系统是机身[**emmc**](https://baike.baidu.com/item/eMMC/117849)（你可以理解为switch中的硬盘）中的系统，Switch新机出场后就有的东西。
 
 由于**目前没有**老任扫盘而ban机的**报告**，我们可以认为正版系统启动后不会因为读取TF卡中的可疑数据而ban机。
 
