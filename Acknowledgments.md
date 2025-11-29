@@ -2,7 +2,7 @@
 title: 感谢你们的支持
 description: 本篇记录了致谢的对象。
 published: true
-date: 2025-11-28T14:56:14.867Z
+date: 2025-11-29T15:17:26.152Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-28T02:15:42.829Z
@@ -34,7 +34,7 @@ dateCreated: 2025-08-28T02:15:42.829Z
   <tbody>
     <tr>
       <td style="padding: 8px;"><a href="https://space.bilibili.com/604067016" target="_blank">葡萄糖酸菜鱼</a></td>
-      <td style="padding: 8px;">￥164.51</td>
+      <td style="padding: 8px;">￥114.51+￥50</td>
       <td style="padding: 8px;">2025-11-28</td>
       <td style="padding: 8px;">huangsam04的恩情还不完\😭/\😭/\😭/</td>
     </tr>
