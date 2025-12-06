@@ -2,7 +2,7 @@
 title: 错误码
 description: 从这里查找Switch常见的错误码。
 published: true
-date: 2025-12-06T04:28:37.213Z
+date: 2025-12-06T04:29:14.256Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-05T02:31:51.363Z
@@ -28,7 +28,7 @@ dateCreated: 2025-10-05T02:31:51.363Z
 | `2168-0002` | `0100000000001000` | 未删除自定义主题 | 参考 **[NXThemesInstaller](/NXThemesInstaller)** 的 **强制删除主题** 一段 |
 | `2162-0002(0x4a2)` | `0100000000001000` | 国行主机升级HOS20+或全球版主机不小心误转国区 | 下载带有自动转区功能的ultrahand组件([葡萄糖酸菜鱼](https://space.bilibili.com/604067016)提供的整合包自带)，放入卡中，重启主机。 |
 | `2347-0007` | `420000000007E51A` | Ultrahand崩溃 |  |
-| `2168-0003(0x4a2)` | `0100000000000024` | 用户空间PC地址没有对齐到4字节 | 制作隐藏分区形式的虚拟系统时，使用 [Hekate](https://github.com/CTCaer/hekate/releases) 格式化。 |
+| `2168-0003(0x6a8)` | `0100000000000024` | 用户空间PC地址没有对齐到4字节 | 制作隐藏分区形式的虚拟系统时，使用 [Hekate](https://github.com/CTCaer/hekate/releases) 格式化。 |
 
 ---
 
