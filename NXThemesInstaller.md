@@ -2,7 +2,7 @@
 title: 管理主题&主题补丁
 description: 本文将会告诉你怎么安装主题，以及卸载它们。
 published: true
-date: 2025-11-20T09:37:54.486Z
+date: 2025-12-12T23:55:25.131Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-29T15:14:28.887Z
@@ -14,7 +14,8 @@ dateCreated: 2025-08-29T15:14:28.887Z
 更新系统前一定要删掉主题！
 {.is-danger}
 
-> 报错无法进入系统参考[FAQ](/FAQ)
+> **提示**
+报错无法进入系统参考[FAQ](/FAQ)
 {.is-info}
 
 ## 安装补丁
