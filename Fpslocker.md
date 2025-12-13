@@ -2,7 +2,7 @@
 title: 帧率解锁 Fpslocker
 description: Fpslocker是一个解锁游戏帧数的程序，支持大部分游戏。
 published: true
-date: 2025-11-20T09:43:11.063Z
+date: 2025-12-13T00:04:13.119Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-28T13:41:31.418Z
@@ -37,17 +37,24 @@ dateCreated: 2025-09-28T13:41:31.418Z
 	4. 右侧有◯，说明不需要补丁，可以直接解锁帧数。
   ![不需要.png](/homebrew/fpslocker/不需要.png =50%x)
   ▸ 旷世奇作《小猪佩奇历险记:世界之旅》就不需要补丁。
-  
-## 1.补丁文件
-> 确认你的整合包已经安装了最新版的 Fpslocker 和 SaltyNX。
-> 不懂的话问你的整合包作者，葡萄糖酸菜鱼 的整合包已经预置。
-{.is-warning}
 
+## 1.安装Fpslocker
+> **提示**
+一般的整合包已经帮你处理完这一切了，例如 葡萄糖酸菜鱼 的整合包已经预置。
+你可以跳过这一步。
+{.is-info}
+
+前往Fpslocker [Github Release](https://github.com/masagrator/FPSLocker/releases) ，下载最新版（例如FPSLocker 3.2.1）的 Assets: FPSLocker.ovl 。
+确保你已经安装 [Ultrahand](https://github.com/ppkantorski/Ultrahand-Overlay) 和 [SaltyNX](https://github.com/masagrator/SaltyNX)，把这个.ovl放置在 tf卡/switch/.overlays/ 文件夹中。
+
+对于更新，替换这个文件即可。
+  
+## 2.复制补丁文件
 0) 如果你是用的是 葡萄糖酸菜鱼 的整合包，Fpslocker已经配置了国内源，可以跳过这步，转换补丁时直接点下载。
 1) 下载补丁文件，从[Github原项目](https://github.com/masagrator/FPSLocker-Warehouse/archive/refs/heads/v4.zip) 或 [国内同步源](https://dl.awa.cool/scy/FPSLocker-Warehouse/fpslocker.zip) 。
 2) 下载完成后解压，将“atmosphere”和“SaltySD”两个文件夹复制到根目录。
 
-## 2.补丁安装
+## 3.补丁安装
 
 1) 呼出Ultrahand，进入帧数解锁
 2) 进入高级设置选项，点击转换配置文件到补丁。
