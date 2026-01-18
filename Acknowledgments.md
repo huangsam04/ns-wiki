@@ -2,7 +2,7 @@
 title: 感谢你们的支持
 description: 本篇记录了致谢的对象。
 published: true
-date: 2026-01-18T00:04:00.131Z
+date: 2026-01-18T02:35:24.275Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-28T02:15:42.829Z
@@ -15,11 +15,13 @@ dateCreated: 2025-08-28T02:15:42.829Z
 评论站使用[Artalk](https://artalk.js.org/) 软件搭建。
 
 ## 支持我们
-本维基项目完全是出于**爱好**搭建的，**不再**收取捐赠，感谢你有支持我们的心！
+本维基项目完全是出于**爱好**搭建的，**不**收取用户捐赠，感谢你有支持我们的心！
 
 我们**不会**通过本站**盈利**。
 
-仍然感谢曾经支持服务运营的人，按照时间顺序排序。
+你也可以通过[Linux.Do Credit](https://credit.linux.do/paying/online?token=ebe8b8db6602e6079a71352603db6986de23a36ad8575187220a54b8f5baf0bc)给我鼓励。
+
+下面是使用我的**分发站**的人的捐赠：
 
 <table style="width: 100%; border-collapse: collapse; font-size: 16px; text-align: center;">
   <thead style="background: #f2f2f2;">
