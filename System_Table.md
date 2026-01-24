@@ -2,7 +2,7 @@
 title: HOS 版本
 description: 本页面是 Switch 主机系统版本核心信息的汇总
 published: true
-date: 2026-01-24T05:34:46.526Z
+date: 2026-01-24T06:06:18.884Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-24T05:31:47.555Z
@@ -90,5 +90,5 @@ dateCreated: 2026-01-24T05:31:47.555Z
 | 21.1.0 | 2025年12月9日 (UTC) | 2025-10-09 15:38:19 | 21.3.0.0 - 21.4.0.0 |
 | 21.2.0 | 2026年1月13日 (UTC) | 2025-10-09 15:38:19 | 21.3.0.0 - 21.4.0.0 |
 
-> 数据来源：[https://switchbrew.org/wiki/System_Versions](https://switchbrew.org/wiki/System_Versions)
+> 数据来源：[SwitchBrew.org](https://switchbrew.org/wiki/System_Versions)
 {.is-info}
