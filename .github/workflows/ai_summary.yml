@@ -1,0 +1,72 @@
+name: Trigger AI Summaries
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  ai_summary:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Show changed files
+        run: |
+          echo "==== Changed files ===="
+          git diff --name-only ${{ github.event.before }} ${{ github.sha }} || true
+
+      - name: Build page list
+        id: build
+        run: |
+          echo "==== Processing files for AI Summary ===="
+          pages=""
+
+          for file in $(git diff --name-only ${{ github.event.before }} ${{ github.sha }}); do
+            echo "Checking file: $file"
+
+            # only md or html
+            if [[ "$file" == *.md || "$file" == *.html ]]; then
+              echo "  -> Matched: $file"
+
+              base="${file%.md}"
+              base="${base%.html}"
+
+              # page_name 对应 URL 路径
+              pages="${pages}\n${base}"
+            fi
+          done
+
+          echo "==== Final Page List ===="
+          echo -e "$pages"
+
+          echo "CHANGED_PAGES<<EOF" >> $GITHUB_OUTPUT
+          echo -e "$pages" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: No changes detected
+        if: steps.build.outputs.CHANGED_PAGES == ''
+        run: echo "No .md or .html changes found. Nothing to process."
+
+      - name: Trigger AI Summary
+        if: steps.build.outputs.CHANGED_PAGES != ''
+        run: |
+          echo "==== Triggering AI Summary ===="
+          for page in $(echo -e "${{ steps.build.outputs.CHANGED_PAGES }}"); do
+            if [[ -z "$page" ]]; then
+              continue
+            fi
+
+            summary_url="https://nswiki.cn/secret.AI_SUMMARY/summary/${page}"
+            echo "Triggering: $summary_url"
+
+            # 使用 curl GET 触发接口
+            curl -s -o /dev/null "$summary_url"
+
+            echo "Triggered: $page"
+          done
