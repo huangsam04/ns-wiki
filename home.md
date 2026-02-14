@@ -1,8 +1,8 @@
 ---
 title: 主页
-description: Home Page
+description: 本Wiki旨在一站式解决NS玩机问题，用户可通过搜索或侧边栏导航查询内容。站名灵感源自哈斯母星，与星际拓荒官方无关。作为公益站点，欢迎阅读站点说明后申请正式成员权限协助维护，如有疑问可通过评论或QQ联系。
 published: true
-date: 2026-02-14T00:45:55.764Z
+date: 2026-02-14T12:02:04.342Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
