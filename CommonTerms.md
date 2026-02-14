@@ -2,7 +2,7 @@
 title: 常见词汇介绍
 description: 本篇主要是为了介绍一些NS学习版的常见术语。 由于NS破解本就无官方，中英文互译更是产生了一堆翻译版本，因此主要是提供常见的翻译。
 published: true
-date: 2025-11-20T09:27:13.873Z
+date: 2026-02-14T12:32:09.290Z
 tags: 基础知识
 editor: markdown
 dateCreated: 2025-08-21T05:36:11.237Z
@@ -34,7 +34,7 @@ HBmenu已经停更，目前接替的就是sphaira。
 
 一般来说是打开相册进入HBmenu，按住R打开相册是进入正常的相册。
 
-这是Sphaira↓
+这是Sphaira↓（小程序模式会在右上角标注出来）
 ![小程序模式sphaira.jpg](/base/commonterms/小程序模式sphaira.jpg =66%x)
 
 ## 究极手，ultrahand，uberhand
