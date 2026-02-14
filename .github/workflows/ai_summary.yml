@@ -42,31 +42,34 @@ jobs:
         if: steps.get_pages.outputs.PAGE_NAMES == ''
         run: echo "No .md or .html changes detected. Skip request."
 
-      - name: Send request to AI Summary API
+      - name: Send request to AI Summary API (Streaming)
         env:
-          AI_SUMMARY_ID: ${{ secrets.AI_SUMMARY_ID }}  # 引用 GitHub Secret
+          AI_SUMMARY_ID: ${{ secrets.AI_SUMMARY }}
         if: steps.get_pages.outputs.PAGE_NAMES != ''
         run: |
-          # 遍历所有变更的page_name
+          # 遍历所有变更的 page_name
           while IFS= read -r page; do
             if [[ -z "$page" ]]; then continue; fi
             
-            # URL编码page_name（避免特殊字符导致的问题）
             encoded_page=$(echo -n "$page" | jq -sRr @uri)
             request_url="https://nswiki.cn/${AI_SUMMARY_ID}/summary/${encoded_page}"
             echo -e "\n==== Requesting: $request_url ===="
             
-            curl -s -v -w "\n==== Response Status Code: %{http_code} ====" \
-              -o /tmp/response.txt \
-              "$request_url" \
-              -H "Content-Type: application/json" \
-              --max-time 10
+            # 流式请求处理
+            curl -s "$request_url" | while IFS= read -r line; do
+                if [[ "$line" == data:* ]]; then
+                    CONTENT="${line#data: }"
+                    # 遇到结束标记 [DONE] 就结束循环
+                    if [[ "$CONTENT" == "[DONE]" ]]; then
+                        echo "--- Stream finished for '$page' ---"
+                        break
+                    fi
+                    echo "$CONTENT"
+                fi
+            done
             
-            # 输出完整的响应内容
-            echo -e "\n==== Full Response Content ===="
-            cat /tmp/response.txt
             echo -e "\n==== Request for '$page' completed ===="
-            
+          done <<< "$(echo -e '${{ steps.get_pages.outputs.PAGE_NAMES }}')"
             # 清理临时文件
             rm -f /tmp/response.txt
           done <<< "$(echo -e '${{ steps.get_pages.outputs.PAGE_NAMES }}')"
