@@ -2,14 +2,18 @@
 title: 主页
 description: Home Page
 published: true
-date: 2026-02-08T13:15:49.804Z
+date: 2026-02-14T00:45:55.764Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
 ---
 
 <div style="width:100%; height:200px; overflow:hidden; border-radius:12px;">
-  <img src="https://download.nswiki.cn/huangsam04/Banner.avif" style="width:100%; height:100%; object-fit:cover; object-position:top center;">
+<img 
+  src="https://download.nswiki.cn/huangsam04/Banner.avif" 
+  alt="网站顶部横幅图" 
+  style="width:100%; height:100%; object-fit:cover; object-position:top center;">
+
 </div>
 
 <p id="typewriter-container" class="retro-font">
