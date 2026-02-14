@@ -1,8 +1,8 @@
 ---
 title: 常见词汇介绍
-description: 这是新的AI总结内容
+description: 本文介绍了Switch破解中的常见术语及工具。核心概念包括前端与注入启动，两者均拥有较高系统权限；而通过相册入口启动的Sphaira等程序权限较低。此外，文章列举了常用工具，如用于安装游戏的DBI、备份存档的JKSV、检测网络屏蔽的90DNS，以及串流、看B站和查看游戏时长的辅助软件。
 published: true
-date: 2026-02-14T13:05:42.014Z
+date: 2026-02-14T13:06:58.628Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-21T05:36:11.237Z
