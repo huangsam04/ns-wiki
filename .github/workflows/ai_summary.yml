@@ -1,6 +1,5 @@
 name: Auto Request AI Summary
 
-# 触发条件：main/master 分支推送时
 on:
   push:
     branches:
@@ -11,29 +10,23 @@ jobs:
   request-ai-summary:
     runs-on: ubuntu-latest
     steps:
-      # 1. 检出代码仓库（需完整历史以对比文件变更）
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # 2. 提取变更的 .md/.html 文件，生成 page_name 列表
       - name: Get changed page names
         id: get_pages
         run: |
           echo "==== Detecting changed .md/.html files ===="
           page_names=""
 
-          # 遍历本次推送的变更文件
           for file in $(git diff --name-only ${{ github.event.before }} ${{ github.sha }}); do
             echo "Checking file: $file"
-            # 仅保留 .md 或 .html 后缀的文件
             if [[ "$file" == *.md || "$file" == *.html ]]; then
               echo "  -> Matched: $file"
-              # 移除文件后缀，得到 page_name（如 "docs/intro.md" → "docs/intro"）
               page_name="${file%.md}"
               page_name="${page_name%.html}"
-              # 拼接 page_name 列表（换行分隔）
               page_names="${page_names}\n${page_name}"
             fi
           done
@@ -41,33 +34,43 @@ jobs:
           echo "==== Final Page Name List ===="
           echo -e "$page_names"
 
-          # 将结果输出到步骤变量，供后续使用
           echo "PAGE_NAMES<<EOF" >> $GITHUB_OUTPUT
           echo -e "$page_names" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-      # 3. 无变更时提示（可选步骤，用于日志清晰）
       - name: No valid changes
         if: steps.get_pages.outputs.PAGE_NAMES == ''
         run: echo "No .md or .html changes detected. Skip request."
 
-      # 4. 有变更时，循环请求目标接口
+      # 核心修改：让curl输出完整响应内容
       - name: Send request to AI Summary API
         if: steps.get_pages.outputs.PAGE_NAMES != ''
         run: |
-          # 遍历所有变更的 page_name
+          # 遍历所有变更的page_name
           while IFS= read -r page; do
-            # 跳过空行（避免列表首尾空值）
             if [[ -z "$page" ]]; then continue; fi
             
-            # 拼接完整请求 URL
-            request_url="https://nswiki.cn/secret.AI_SUMMARY/summary/${page}"
-            echo "==== Requesting: $request_url ===="
+            # URL编码page_name（避免特殊字符导致的问题）
+            encoded_page=$(echo -n "$page" | jq -sRr @uri)
+            request_url="https://nswiki.cn/secret.AI_SUMMARY/summary/${encoded_page}"
+            echo -e "\n==== Requesting: $request_url ===="
             
-            # 发起 GET 请求（若接口需 POST，可补充 -X POST 及 -d 参数）
-            curl -v "$request_url" \
+            # 关键修改：curl参数调整，输出完整响应内容
+            # -s: 静默模式（去掉进度条）
+            # -v: 保留调试信息（连接/握手）
+            # -w: 输出响应状态码
+            # -o: 将响应体输出到临时文件
+            curl -s -v -w "\n==== Response Status Code: %{http_code} ====" \
+              -o /tmp/response.txt \
+              "$request_url" \
               -H "Content-Type: application/json" \
-              --max-time 120
+              --max-time 10
             
-            echo -e "==== Request for '$page' completed\n"
+            # 输出完整的响应内容
+            echo -e "\n==== Full Response Content ===="
+            cat /tmp/response.txt
+            echo -e "\n==== Request for '$page' completed ===="
+            
+            # 清理临时文件
+            rm -f /tmp/response.txt
           done <<< "$(echo -e '${{ steps.get_pages.outputs.PAGE_NAMES }}')"
