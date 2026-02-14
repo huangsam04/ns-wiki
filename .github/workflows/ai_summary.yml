@@ -16,6 +16,15 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Skip CI if commit contains [skip ci]
+        run: |
+          COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
+          echo "Commit message: $COMMIT_MESSAGE"
+          if [[ "$COMMIT_MESSAGE" == *"[skip ci]"* ]]; then
+            echo "Skipping workflow because [skip ci] found in commit message."
+            exit 0
+          fi
+
       - name: Show changed files
         run: |
           echo "==== Changed files ===="
@@ -35,7 +44,7 @@ jobs:
               echo "  -> Matched: $file"
 
               base="${file%.md}"
-              base="${base%.html}"
+              base="${file%.html}"
 
               # page_name 对应 URL 路径
               pages="${pages}\n${base}"
@@ -62,11 +71,19 @@ jobs:
               continue
             fi
 
-            summary_url="https://nswiki.cn/secret.AI_SUMMARY/summary/${page}"
+            summary_url="https://nswiki.cn/secret.ai_summary/summary/${page}"
             echo "Triggering: $summary_url"
 
             # 使用 curl GET 触发接口
             curl -s -o /dev/null "$summary_url"
 
             echo "Triggered: $page"
-          done
+
+      - name: Commit summary updates with [skip ci]
+        run: |
+          # 如果 workflow 自动生成了文件（可选），提交时加 [skip ci]
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Auto-update summaries [skip ci]" || echo "No changes to commit."
+          git push origin HEAD:${{ github.ref }} || echo "Push failed or nothing to push."
