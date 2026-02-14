@@ -2,16 +2,15 @@
 title: 如何安装整合包
 description: 本文旨在指导用户安装Switch大气层整合包。关键前提是准备TF卡、Windows电脑及数据线，并需使用特定工具进行AU对齐分区以避免性能损失。主要过程涵盖下载解压整合包、格式化TF卡、拷入Hekate文件、在Switch上通过Hekate进行SD卡分区与虚拟系统创建，最后配置自动启动并完成安装。
 published: true
-date: 2026-02-14T11:29:13.933Z
+date: 2026-02-14T12:12:25.601Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T13:59:15.909Z
 ---
 
 # 安装整合包
-## 整合包来自于 [葡萄糖酸菜鱼](https://space.bilibili.com/604067016) 免费提供支持
 > **关于整合包**
-本文配套整合包为 葡萄糖酸菜鱼 提供更新服务，[夸克网盘下载链接](https://pan.quark.cn/s/3c0d28411181)。
+本文配套整合包为 [葡萄糖酸菜鱼](https://space.bilibili.com/604067016) 提供更新服务，[夸克网盘下载链接](https://pan.quark.cn/s/3c0d28411181)。
 如果链接失效请通过加入 葡萄糖酸菜鱼 的QQ群 955423869 来通知。
 {.is-info}
 
