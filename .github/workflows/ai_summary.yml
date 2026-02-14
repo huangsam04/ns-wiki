@@ -1,5 +1,6 @@
-name: AI Summaries
+name: Auto Request AI Summary
 
+# 触发条件：main/master 分支推送时
 on:
   push:
     branches:
@@ -7,68 +8,66 @@ on:
       - master
 
 jobs:
-  ai_summary:
+  request-ai-summary:
     runs-on: ubuntu-latest
-
     steps:
+      # 1. 检出代码仓库（需完整历史以对比文件变更）
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Skip CI if commit contains [skip ci]
+      # 2. 提取变更的 .md/.html 文件，生成 page_name 列表
+      - name: Get changed page names
+        id: get_pages
         run: |
-          COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
-          echo "Commit message: $COMMIT_MESSAGE"
-          if [[ "$COMMIT_MESSAGE" == *"[skip ci]"* ]]; then
-            echo "Skipping workflow because [skip ci] found in commit message."
-            exit 0
-          fi
+          echo "==== Detecting changed .md/.html files ===="
+          page_names=""
 
-      - name: Show changed files
-        run: |
-          echo "==== Changed files ===="
-          git diff --name-only ${{ github.event.before }} ${{ github.sha }} || true
-
-      - name: Build page list
-        id: build
-        run: |
-          echo "==== Processing files for AI Summary ===="
-          pages=()
-
-          while IFS= read -r file; do
+          # 遍历本次推送的变更文件
+          for file in $(git diff --name-only ${{ github.event.before }} ${{ github.sha }}); do
             echo "Checking file: $file"
+            # 仅保留 .md 或 .html 后缀的文件
             if [[ "$file" == *.md || "$file" == *.html ]]; then
               echo "  -> Matched: $file"
-              base="${file%.md}"
-              base="${file%.html}"
-              pages+=("$base")
+              # 移除文件后缀，得到 page_name（如 "docs/intro.md" → "docs/intro"）
+              page_name="${file%.md}"
+              page_name="${page_name%.html}"
+              # 拼接 page_name 列表（换行分隔）
+              page_names="${page_names}\n${page_name}"
             fi
-          done < <(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+          done
 
-          if [ ${#pages[@]} -eq 0 ]; then
-            echo "No .md or .html changes found. Nothing to process."
-            echo "CHANGED_PAGES=" >> $GITHUB_OUTPUT
-          else
-            echo "==== Final Page List ===="
-            printf '%s\n' "${pages[@]}"
-            echo "CHANGED_PAGES<<EOF" >> $GITHUB_OUTPUT
-            printf '%s\n' "${pages[@]}" >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
+          echo "==== Final Page Name List ===="
+          echo -e "$page_names"
 
-      - name: Trigger AI Summary
-        if: steps.build.outputs.CHANGED_PAGES != ''
+          # 将结果输出到步骤变量，供后续使用
+          echo "PAGE_NAMES<<EOF" >> $GITHUB_OUTPUT
+          echo -e "$page_names" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      # 3. 无变更时提示（可选步骤，用于日志清晰）
+      - name: No valid changes
+        if: steps.get_pages.outputs.PAGE_NAMES == ''
+        run: echo "No .md or .html changes detected. Skip request."
+
+      # 4. 有变更时，循环请求目标接口
+      - name: Send request to AI Summary API
+        if: steps.get_pages.outputs.PAGE_NAMES != ''
         run: |
-          echo "==== Triggering AI Summary ===="
-          mapfile -t pages < <(echo "${{ steps.build.outputs.CHANGED_PAGES }}" | grep -v '^$')
-          for page in "${pages[@]}"; do
-            summary_url="https://nswiki.cn/secret.ai_summary/summary/${page}"
-            echo "Triggering: $summary_url"
-
-            # 使用 curl 获取接口，并显示详细 HTTP 信息
-            curl -v -i "$summary_url"
-
-            echo "Triggered: $page"
-
-      - name: Finished
-        run: echo "==== AI Summary trigger completed ===="
+          # 遍历所有变更的 page_name
+          while IFS= read -r page; do
+            # 跳过空行（避免列表首尾空值）
+            if [[ -z "$page" ]]; then continue; fi
+            
+            # 拼接完整请求 URL
+            request_url="https://nswiki.cn/secret.AI_SUMMARY/summary/${page}"
+            echo "==== Requesting: $request_url ===="
+            
+            # 发起 GET 请求（若接口需 POST，可补充 -X POST 及 -d 参数）
+            curl -v "$request_url" \
+              -H "Content-Type: application/json" \
+              --max-time 120
+            
+            echo -e "==== Request for '$page' completed\n"
+          done <<< "$(echo -e '${{ steps.get_pages.outputs.PAGE_NAMES }}')"
