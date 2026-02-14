@@ -1,8 +1,8 @@
 ---
 title: Atmosphère 及任天堂 Switch 结果码
-description: 这是使用 GraphQL API 更新的新简短说明111
+description: 包含几乎所有默认 (Atmosphère + libnx + hbloader) 结果的生成列表
 published: true
-date: 2026-02-14T10:32:07.438Z
+date: 2026-02-14T16:30:18.516Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-20T13:30:08.066Z
