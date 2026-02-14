@@ -2,7 +2,7 @@
 title: 书写说明
 description: 本文告诉你在本站编辑内容时要遵循的硬性要求。
 published: true
-date: 2025-11-28T13:34:30.590Z
+date: 2026-02-14T11:37:21.249Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-21T15:07:21.834Z
@@ -32,7 +32,7 @@ All resources come from the network, this site does not participate in any dump 
 ![页面属性.png](/书写要求/页面属性.png =66%x)
 编辑页面属性的时候：
 - 标题**填写中文标题**，或者如果只有英文的话就写英文
-- 简短说明应当填写**内容的介绍**，这对于搜索引擎索引 **很重要** ！！
+- 简短说明**无需填写**，本站会使用语言模型自动生成一个
 
 ### 标题等级 需要遵循的标准
 一篇文章应当 **有且仅有** 一个 一级标题（`#`），对于 二级（`##`） 以及更低级标题没有数量限制。
