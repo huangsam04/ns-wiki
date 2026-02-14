@@ -2,7 +2,7 @@
 title: 常见词汇介绍
 description: 这是新的AI总结内容
 published: true
-date: 2026-02-14T12:48:18.664Z
+date: 2026-02-14T13:05:42.014Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-21T05:36:11.237Z
@@ -11,7 +11,7 @@ dateCreated: 2025-08-21T05:36:11.237Z
 # 学习常见的术语
 
 ## 前端，面板，Title
-原名Title。
+英文名 Title。
 ![解释前端.jpg](/base/commonterms/解释前端.jpg =66%x)
 
 当你安装了一个新游戏的时候，switch主页中间那一行正方形便会有一个显示游戏。
