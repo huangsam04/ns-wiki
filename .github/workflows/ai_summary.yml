@@ -75,7 +75,7 @@ jobs:
             echo "Triggering: $summary_url"
 
             # 使用 curl GET 触发接口
-            curl -s -o /dev/null "$summary_url"
+            curl -v -i "$summary_url"
 
             echo "Triggered: $page"
 
