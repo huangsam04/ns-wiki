@@ -2,7 +2,7 @@
 title: 书写说明
 description: 本文告诉你在本站编辑内容时要遵循的硬性要求。
 published: true
-date: 2026-02-14T11:37:21.249Z
+date: 2026-02-14T11:38:53.827Z
 tags: 站点说明
 editor: markdown
 dateCreated: 2025-08-21T15:07:21.834Z
@@ -44,7 +44,8 @@ All resources come from the network, this site does not participate in any dump 
 - /root **不要在这里上传内容**（我想不出来上传内容的必要，请保持数据结构的干净）
 - /base **基础内容文件夹**。你可以在这里创建一个文件夹，然后把页面的数据上传在这里。例如 常见词汇介绍 在/base/commonterms/
 - /书写要求 是本页面的素材文件夹。
-- /星际拓荒 夹带私货板块的页面的素材文件夹。
+- /星际拓荒 里面是空的，只是为了纪念。
+
 目前没有创建新文件夹的计划，也许以后会创建一个进阶内容的文件夹吧。
 
 记得修改图片的大小，在图片链接处加一个空格，再写上你想放的比例x。一般使用66%。做法如下：
