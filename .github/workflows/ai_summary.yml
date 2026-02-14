@@ -1,4 +1,4 @@
-name: Trigger AI Summaries
+name: AI Summaries
 
 on:
   push:
@@ -34,56 +34,41 @@ jobs:
         id: build
         run: |
           echo "==== Processing files for AI Summary ===="
-          pages=""
+          pages=()
 
-          for file in $(git diff --name-only ${{ github.event.before }} ${{ github.sha }}); do
+          while IFS= read -r file; do
             echo "Checking file: $file"
-
-            # only md or html
             if [[ "$file" == *.md || "$file" == *.html ]]; then
               echo "  -> Matched: $file"
-
               base="${file%.md}"
               base="${file%.html}"
-
-              # page_name 对应 URL 路径
-              pages="${pages}\n${base}"
+              pages+=("$base")
             fi
-          done
+          done < <(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
 
-          echo "==== Final Page List ===="
-          echo -e "$pages"
-
-          echo "CHANGED_PAGES<<EOF" >> $GITHUB_OUTPUT
-          echo -e "$pages" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-
-      - name: No changes detected
-        if: steps.build.outputs.CHANGED_PAGES == ''
-        run: echo "No .md or .html changes found. Nothing to process."
+          if [ ${#pages[@]} -eq 0 ]; then
+            echo "No .md or .html changes found. Nothing to process."
+            echo "CHANGED_PAGES=" >> $GITHUB_OUTPUT
+          else
+            echo "==== Final Page List ===="
+            printf '%s\n' "${pages[@]}"
+            echo "CHANGED_PAGES<<EOF" >> $GITHUB_OUTPUT
+            printf '%s\n' "${pages[@]}" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Trigger AI Summary
         if: steps.build.outputs.CHANGED_PAGES != ''
         run: |
           echo "==== Triggering AI Summary ===="
-          for page in $(echo -e "${{ steps.build.outputs.CHANGED_PAGES }}"); do
-            if [[ -z "$page" ]]; then
-              continue
-            fi
-
+          mapfile -t pages < <(echo "${{ steps.build.outputs.CHANGED_PAGES }}" | grep -v '^$')
+          for page in "${pages[@]}"; do
             summary_url="https://nswiki.cn/secret.ai_summary/summary/${page}"
             echo "Triggering: $summary_url"
 
-            # 使用 curl GET 触发接口
+            # 使用 curl 获取接口，并显示详细 HTTP 信息
             curl -v -i "$summary_url"
 
             echo "Triggered: $page"
 
-      - name: Commit summary updates with [skip ci]
-        run: |
-          # 如果 workflow 自动生成了文件（可选），提交时加 [skip ci]
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add .
-          git commit -m "Auto-update summaries [skip ci]" || echo "No changes to commit."
-          git push origin HEAD:${{ github.ref }} || echo "Push failed or nothing to push."
+      - name: Finished
+        run: echo "==== AI Summary trigger completed ===="
