@@ -42,8 +42,9 @@ jobs:
         if: steps.get_pages.outputs.PAGE_NAMES == ''
         run: echo "No .md or .html changes detected. Skip request."
 
-      # 核心修改：让curl输出完整响应内容
       - name: Send request to AI Summary API
+        env:
+          AI_SUMMARY_ID: ${{ secrets.AI_SUMMARY_ID }}  # 引用 GitHub Secret
         if: steps.get_pages.outputs.PAGE_NAMES != ''
         run: |
           # 遍历所有变更的page_name
@@ -52,14 +53,9 @@ jobs:
             
             # URL编码page_name（避免特殊字符导致的问题）
             encoded_page=$(echo -n "$page" | jq -sRr @uri)
-            request_url="https://nswiki.cn/secret.AI_SUMMARY/summary/${encoded_page}"
+            request_url="https://nswiki.cn/${AI_SUMMARY_ID}/summary/${encoded_page}"
             echo -e "\n==== Requesting: $request_url ===="
             
-            # 关键修改：curl参数调整，输出完整响应内容
-            # -s: 静默模式（去掉进度条）
-            # -v: 保留调试信息（连接/握手）
-            # -w: 输出响应状态码
-            # -o: 将响应体输出到临时文件
             curl -s -v -w "\n==== Response Status Code: %{http_code} ====" \
               -o /tmp/response.txt \
               "$request_url" \
