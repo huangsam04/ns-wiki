@@ -1,8 +1,8 @@
 ---
 title: 如何安装整合包
-description: 本教程提供了 安装整合包 和 创建分区格式虚拟系统 的方法。
+description: 本文旨在指导用户安装Switch大气层整合包。关键前提是准备TF卡、Windows电脑及数据线，并需使用特定工具进行AU对齐分区以避免性能损失。主要过程涵盖下载解压整合包、格式化TF卡、拷入Hekate文件、在Switch上通过Hekate进行SD卡分区与虚拟系统创建，最后配置自动启动并完成安装。
 published: true
-date: 2025-11-29T14:49:49.781Z
+date: 2026-02-14T11:29:13.933Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T13:59:15.909Z
