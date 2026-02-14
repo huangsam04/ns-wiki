@@ -1,8 +1,8 @@
 ---
 title: 常见词汇介绍
-description: 本文介绍了Switch破解领域的常见术语及工具。核心在于区分不同启动方式的权限差异：前端启动和注入游戏启动拥有较高权限，而通过相册入口启动的HBmenu或Sphaira权限较低。此外，文章还列举了DBI、JKSV等常用工具的功能，涵盖游戏安装、存档备份、DNS屏蔽检测及串流等用途。
+description: 这是新的AI总结内容
 published: true
-date: 2026-02-14T12:33:45.595Z
+date: 2026-02-14T12:48:18.664Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-21T05:36:11.237Z
