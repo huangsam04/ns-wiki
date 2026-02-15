@@ -1,8 +1,8 @@
 ---
 title: Switch破解历史&原理
-description: 本文简单的讲述了Switch破解历史和原理，其中不涉及可以直接操作的技术原理，或者未被公布的安全漏洞。若有侵犯您的权益请提供相关证明致邮 huangsam04@vip.qq.com，我将及时撤下该内容。
+description: 本文概述Switch破解历程，解析利用Tegra芯片RCM漏洞的软破及后期芯片电压故障注入的硬破原理。
 published: true
-date: 2026-02-15T04:50:26.022Z
+date: 2026-02-15T04:51:31.621Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-21T04:49:54.579Z
