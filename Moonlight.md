@@ -1,8 +1,8 @@
 ---
 title: 串流游戏
-description: 本教程教你如何使用 Moonlight 来在Switch上串流电脑的游戏。
+description: 利用Sunshine和Moonlight实现游戏串流，包含客户端安装及服务器配置。
 published: true
-date: 2026-02-15T04:39:42.414Z
+date: 2026-02-15T04:41:12.663Z
 tags: 基础知识, moonlight, sunshine
 editor: markdown
 dateCreated: 2025-08-21T15:12:50.209Z
