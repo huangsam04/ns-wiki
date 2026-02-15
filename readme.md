@@ -1,17 +1,16 @@
 ---
 title: readme
-description: NS·Wiki 的Git仓库说明
+description: 这是一个双向Git储存库，用于存放Nintendo Switch搞机内容。
 published: true
-date: 2025-09-30T15:01:31.678Z
+date: 2026-02-15T05:19:04.351Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-30T14:51:41.720Z
 ---
 
-# 木炉星上的NS·Wiki     
-[![Wiki Website](https://static.requarks.io/logo/wikijs-full.svg)](https://nswiki.cn)
+# 木炉星上的NS·Wiki                         
 
-这是 木炉星上的NS Wiki 的双向Git储存库。如果有任何问题，可以 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/huangsam04/ns-wiki)  。
+这是网页 https://nsw.awa.cool/ 的双向Git储存库。
 
 此Wiki主要用于存放一些Nintendo Switch 1的搞机内容。
 
