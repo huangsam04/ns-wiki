@@ -2,7 +2,7 @@
 title: 常见词汇介绍
 description: 本文介绍了Switch破解中的常见术语及工具。核心概念包括前端与注入启动，两者均拥有较高系统权限；而通过相册入口启动的Sphaira等程序权限较低。此外，文章列举了常用工具，如用于安装游戏的DBI、备份存档的JKSV、检测网络屏蔽的90DNS，以及串流、看B站和查看游戏时长的辅助软件。
 published: true
-date: 2026-02-14T13:06:58.628Z
+date: 2026-02-15T08:34:32.080Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-21T05:36:11.237Z
@@ -57,7 +57,7 @@ HBmenu已经停更，目前接替的就是sphaira。
 用于备份和恢复存档。文件保存在tf卡根目录/JKSV
 
 ### MemToolkit NX
-用于快速给极限超频后的机子测试稳定性的，不过压力不如打开王国之泪玩上半个小时。
+用于快速给极限超频后的机子测试稳定性的，不过还是推荐打开王国之泪玩上半个小时。
 
 ### [Moonlight](https://github.com/XITRIX/Moonlight-Switch)
 是一个Moonlight的switch客户端，用于串流游戏。
