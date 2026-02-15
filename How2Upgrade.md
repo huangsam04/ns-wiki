@@ -2,7 +2,7 @@
 title: 如何更新大气层&固件
 description: 介绍Switch大气层及固件更新。整合包需清空旧配置；虚拟系统需卸载主题刷入；正版系统联网更新。
 published: true
-date: 2026-02-15T04:38:43.157Z
+date: 2026-02-15T04:39:00.019Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T14:32:27.410Z
