@@ -1,8 +1,8 @@
 ---
 title: Switch上能运行的系统
-description: Switch可运行正版系统、大气层破解系统及第三方移植系统。正版系统基于机身eMMC启动，安全可靠。大气层真实系统同样基于eMMC，风险较高，仅建议用于超频或正版联机。大气层虚拟系统将系统文件复制至TF卡运行，通过隐藏序列号和屏蔽服务器实现隔离，是安全的破解环境。此外还有极限超频系统及SwitchRoot移植的Android和Linux系统，但后者因性能限制使用较少。
+description: Switch可运行正版、大气层破解及虚拟系统，亦可运行移植的安卓与Linux。
 published: true
-date: 2026-02-15T01:22:38.131Z
+date: 2026-02-15T01:23:49.016Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-04T06:58:06.983Z
