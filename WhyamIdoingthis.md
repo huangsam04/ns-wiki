@@ -1,8 +1,8 @@
 ---
 title: 为何建站
-description: 前言：我为什么要建这个站
+description: 为对抗互联网低质内容泛滥和信息茧房，作者创建站点展示有价值内容，维护开源精神。
 published: true
-date: 2026-02-15T04:49:20.875Z
+date: 2026-02-15T04:50:13.761Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-29T10:05:45.943Z
