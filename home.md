@@ -1,8 +1,8 @@
 ---
 title: 主页
-description: Switch可运行正版系统、大气层破解系统及第三方移植系统。正版系统基于机身eMMC启动，安全可靠。
+description: Home Page
 published: true
-date: 2026-02-15T01:19:00.163Z
+date: 2026-02-15T01:20:20.238Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
