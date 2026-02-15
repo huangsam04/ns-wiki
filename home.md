@@ -1,8 +1,8 @@
 ---
 title: 主页
-description: 本Wiki旨在一站式解决Switch游戏机软件问题，你可通过搜索或侧边栏导航查询内容。站名灵感源自星际拓荒，与星际拓荒官方无关。
+description: Switch可运行正版系统、大气层破解系统及第三方移植系统。正版系统基于机身eMMC启动，安全可靠。
 published: true
-date: 2026-02-14T13:04:33.553Z
+date: 2026-02-15T01:19:00.163Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-20T15:05:03.120Z
